@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>EscapeFromTarkov-Trainer的安装与使用</title>
+    <url>/2024/08/25/EscapeFromTarkov-Trainer%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p><strong>注意，离线修改器只可在离线版本中使用，不可在正式版中使用！会被反作弊检测到！在正式版中使用所造成的一切后果，本教程不承担任何责任！</strong></p>
+
+  </div>
+<h2 id="下载与安装"><a href="#下载与安装" class="headerlink" title="下载与安装"></a>下载与安装</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><a class="button  regular" href='https://github.com/sailro/EscapeFromTarkov-Trainer' title='Github'><i class='fa-solid fa-download'></i> Github</a>
+<p>点击Releases，进入资源界面。下载<code>installer.zip</code></p>
+
+  <div class="note p-4 mb-4 rounded-small info">
+    <h5 id="下载慢，可以使用Github文件加速服务-右键installer-zip，复制地址，粘贴到加速服务。"><a href="#下载慢，可以使用Github文件加速服务-右键installer-zip，复制地址，粘贴到加速服务。" class="headerlink" title="下载慢，可以使用Github文件加速服务,右键installer.zip，复制地址，粘贴到加速服务。"></a>下载慢，可以使用Github文件加速服务,右键installer.zip，复制地址，粘贴到加速服务。</h5><hr>
+<p><a class="button  regular" href='https://github.akams.cn/' title='Github文件加速服务'><i class='fa-solid fa-download'></i> Github文件加速服务</a></p>
+
+  </div>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>解压installar.exe到游戏根目录。<br>在文件资源管理器中的地址栏输入CMD,进入CMD<br>输入 <code>Installer -l &lt;language&gt;</code> 安装本地化的游戏翻译，中文即<code>zh-cn</code>,此外，还支持法语<code>fr</code>,英语<code>en</code></p>
+<h3 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h3><p>在文件资源管理器中的地址栏输入CMD,进入CMD<br>键入 <code>Installer uninstall</code> 卸载。</p>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>逃离塔克夫</tag>
+        <tag>安装</tag>
+        <tag>辅助</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>塔克夫SPT-AKI离线版本安装指南</title>
+    <url>/2024/08/25/%E5%A1%94%E5%85%8B%E5%A4%ABSPT-AKI%E7%A6%BB%E7%BA%BF%E7%89%88%E6%9C%AC%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<h1 id="逃离塔克夫SPT-AKI离线版本安装指南"><a href="#逃离塔克夫SPT-AKI离线版本安装指南" class="headerlink" title="逃离塔克夫SPT-AKI离线版本安装指南"></a>逃离塔克夫SPT-AKI离线版本安装指南</h1><blockquote>
+<p>SPT-AKI 3.9.8版本(2024&#x2F;8&#x2F;20)  </p>
+</blockquote>
+<h3 id="SPT-AKI-永远不会正式实施任何多人游戏或合作游戏功能。"><a href="#SPT-AKI-永远不会正式实施任何多人游戏或合作游戏功能。" class="headerlink" title="SPT-AKI 永远不会正式实施任何多人游戏或合作游戏功能。"></a>SPT-AKI 永远不会正式实施任何多人游戏或合作游戏功能。</h3><h4 id="以下是-SPT-团队不会考虑实施合作游戏的几个原因："><a href="#以下是-SPT-团队不会考虑实施合作游戏的几个原因：" class="headerlink" title="以下是 SPT 团队不会考虑实施合作游戏的几个原因："></a>以下是 SPT 团队不会考虑实施合作游戏的几个原因：</h4><ul>
+<li>有悖于 SPT 的目标，即允许离线（单人）进行 EFT，与他人一起游戏从来都不是目标，因此该项目被命名为”单人塔可夫”。</li>
+<li>SPT 是对 EFT 离线突袭模式的修改，在突袭后会保存配置文件数据。</li>
+<li>“SPT 服务器”只是一个将个人资料保存到硬盘的系统，同时还模拟了贸易商、跳蚤市场、藏身处等。</li>
+<li>BattleState Games 是 EFT 的开发商，如果加入 COOP，他们很可能会在巨大的法律压力下废除该项目。SPT 将立即停止存在。</li>
+<li>SPT 以外的人曾多次尝试创建 COOP 系统，但都因其复杂性而失败。</li>
+</ul>
+<h2 id="安装离线版本之前，请确保您的电脑配置满足要求"><a href="#安装离线版本之前，请确保您的电脑配置满足要求" class="headerlink" title="安装离线版本之前，请确保您的电脑配置满足要求"></a>安装离线版本之前，请确保您的电脑配置满足要求</h2><table>
+<thead>
+<tr>
+<th>配件</th>
+<th>最低配置</th>
+<th>推荐配置</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>操作系统</td>
+<td>Windows 10（64 位）</td>
+<td>Windows 11（64 位）</td>
+</tr>
+<tr>
+<td>处理器</td>
+<td>双核处理器 2.4 GHz (9代Intel i3)，2.6 GHz (AMD Athlon, Phenom II)</td>
+<td>四核处理器 3.2 GHz (11代Intel i5, i7)，3.6 GHz (AMD FX, Athlon)</td>
+</tr>
+<tr>
+<td>显卡</td>
+<td>DX11 兼容显卡，带 1 GB 内存</td>
+<td>DX11 兼容显卡，带 4 GB 或更多内存</td>
+</tr>
+<tr>
+<td>内存</td>
+<td>16 GB</td>
+<td>32 GB</td>
+</tr>
+<tr>
+<td>磁盘空间</td>
+<td>35 GB 以上</td>
+<td>45 GB 以上</td>
+</tr>
+<tr>
+<td>声卡</td>
+<td>DirectX 兼容声卡</td>
+<td>DirectX 兼容声卡</td>
+</tr>
+</tbody></table>
+<h2 id="下载客户端"><a href="#下载客户端" class="headerlink" title="下载客户端"></a>下载客户端</h2><ol>
+<li>逃离塔克夫离线论坛： <a class="link"   href="https://sns.oddba.cn/bbs/spt-r" >https://sns.oddba.cn/bbs/spt-r <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  </li>
+<li>进入论坛后，点击最新版本。<blockquote>
+<p> oddba论坛每月1日免费注册账号，且下载不需要登录。</p>
+</blockquote>
+</li>
+<li>滚动到页面下面，找到服务端选项，选择适合你的下载方式，下载客户端。（约25GB）</li>
+<li>于此同时，下载服务端。滚动到页面上面，选择适合你的下载方式，下载服务端（约90MB）</li>
+</ol>
+<h2 id="安装游戏"><a href="#安装游戏" class="headerlink" title="安装游戏"></a>安装游戏</h2><h3 id="以下在你的电脑C盘根目录下操作（也可在别的盘根目录下）："><a href="#以下在你的电脑C盘根目录下操作（也可在别的盘根目录下）：" class="headerlink" title="以下在你的电脑C盘根目录下操作（也可在别的盘根目录下）："></a>以下在你的电脑C盘根目录下操作（也可在别的盘根目录下）：</h3><ol>
+<li>在根目录下新建文件夹<code>EFT</code>，进入EFT文件夹，以下简称“游戏根目录”</li>
+<li>将下载好的Client.xxxx 解压到游戏根目录中。</li>
+<li>解压Client完毕后，将下载好的SPT-x.x.x 解压到游戏根目录中<blockquote>
+<p><strong>注意，与Client文件在同一个文件夹下，不要在Client文件中新建文件夹！</strong><br> 解压完毕后，你的SPT文件应该和Client文件在同一个文件夹下</p>
+</blockquote>
+</li>
+<li>运行一次SPT.Server。</li>
+</ol>
+<h2 id="运行游戏"><a href="#运行游戏" class="headerlink" title="运行游戏"></a>运行游戏</h2><ol>
+<li>在游戏根目录下（EFT）运行SPT.Server，等待服务加载完毕。</li>
+<li>当服务加载完毕后，打开SPT.Launcher,新建档案，开始游戏。<h3 id="过正版校验"><a href="#过正版校验" class="headerlink" title="过正版校验"></a>过正版校验</h3><blockquote>
+<p>如果你打算先试玩离线版再购买正版，可以先过正版校验。<br>如果你有oddba论坛账号的话，可以在<a class="link"   href="https://sns.oddba.cn/140782.html" >https://sns.oddba.cn/140782.html <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 下载一键过正版验证脚本。<br>如果没有账号，就跟着我手动过验证。<br>请确保你的资源管理器打开了显示文件扩展名，在资源管理器中，上栏选择<code>查看-&gt;显示-&gt;文件扩展名</code></p>
+</blockquote>
+<ol>
+<li>在C盘根目录下新建文件夹<code>Install_EFT</code>。</li>
+<li>在<code>Install_EFT</code>文件夹中再新建文件夹<code>BattlEye</code>。</li>
+<li>在<code>BattlEye</code>文件夹中新建文件<code>BEClient_x64.dll</code>里面可为空。</li>
+<li>回退到上一目录（<code>C:\Install_EFT</code>）</li>
+<li>新建文件<code>ConsistencyInfo</code>，里面可为空(无扩展名)</li>
+<li>新建文件<code>Uninstall.exe</code>，里面可为空</li>
+<li>新建文件<code>UnityCrashHandler64.exe</code>，里面可为空</li>
+<li>新建文件<code>WinPixEventRuntime.dll</code>，里面可为空</li>
+<li>新建文本文件，将以下值复制到文件中 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\EscapeFromTarkov]</span><br><span class="line"><span class="string">&quot;UninstallString&quot;</span>=<span class="string">&quot;C:\\Install_EFT\\Uninstall.exe&quot;</span></span><br><span class="line"><span class="string">&quot;InstallLocation&quot;</span>=<span class="string">&quot;C:\\\\Install_EFT&quot;</span></span><br></pre></td></tr></table></figure></div>
+ 重命名为<code>install_EFT.reg</code>，双击，将值添加到注册表中。<br> 至此，过正版验证完毕。</li>
+</ol>
+</li>
+</ol>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol>
+<li>在以后游戏中，先运行SPT.Server，再运行SPT.Launcher</li>
+<li>存档都将放在本地电脑中</li>
+</ol>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p>1.存档修改器：<a class="link"   href="https://github.com/SkiTles55/SPT-AKI-Profile-Editor/releases" >https://github.com/SkiTles55/SPT-AKI-Profile-Editor/releases <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>选择Spt-Aki.Profile.editor.zip 解压安装即可。</p>
+<p>2.离线修改器：<a class="link"   href="https://github.com/sailro/EscapeFromTarkov-Trainer/releases/tag/installer-3.0" >https://github.com/sailro/EscapeFromTarkov-Trainer/releases/tag/installer-3.0 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>下载installer.zip 解压到游戏根目录中（C:\EFT）双击安装即可。<br>如果需要中文汉化，跳过上一步。<br>下载installer.zip 解压到游戏根目录中（C:\EFT），在游戏根目录中（C:\EFT），在地址栏输入<code>cmd</code>，回车打开cmd窗口，输入<code>install -l zh-cn</code>命令安装汉化版本。</p>
+
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p><strong>注意，离线修改器只可在离线版本中使用，不可在正式版中使用！会被反作弊检测到！在正式版中使用所造成的一切后果，本教程不承担任何责任！</strong></p>
+
+  </div>]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>逃离塔克夫</tag>
+        <tag>安装</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>逃离塔克夫离线单人模拟版本修改指南</title>
+    <url>/2024/08/24/%E5%A1%94%E5%85%8B%E5%A4%AB%E7%A6%BB%E7%BA%BF%E7%89%88%E4%BF%AE%E6%94%B9%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>SPT-AKI 3.9.8版本(2024&#x2F;8&#x2F;20)<br><em><strong>注意修改的时候需要关闭服务端，否则修改不生效。修改完成后再启动服务端再进游戏即可生效。</strong></em></p>
+</blockquote>
+<h3 id="修改项目及方法"><a href="#修改项目及方法" class="headerlink" title="修改项目及方法"></a>修改项目及方法</h3><hr>
+<hr>
+<p>首先说明此版本AKI端主要文件的结构（以根目录为EFT文件夹为例）：<br> <code>…\EFT\user</code>文件夹下是账号的游戏数据。<br> <code>user\profile</code>s下的.json为个人账号的角色数据，包含了现有的所有游戏进度、物品、状态等。从这里可修改个人角色的所有数据。<br> <code>…\EFT\Aki_Data\Server</code>下是服务端的配置信息，包含了服务端上游戏的各类参数。<br> 修改这些文件将改变游戏自身的性质，一般来说是全局生效的。但它通常无法直接立即影响角色数据中已经建立了的数据，必须重新获得才可显示生效。</p>
+<hr>
+<h3 id="物资刷新修改"><a href="#物资刷新修改" class="headerlink" title="物资刷新修改"></a>物资刷新修改</h3><p>下面是地图物资刷新倍率修改</p>
+<blockquote>
+<p>路径：<code>EFT\Aki_Data\Server\configs\location</code><br>&#96;</p>
+</blockquote>
+<hr>
+<h3 id="AI数量修改"><a href="#AI数量修改" class="headerlink" title="AI数量修改"></a>AI数量修改</h3><p>下面是AI数量的修改（个人感觉修改后有明显变化）</p>
+<blockquote>
+<p>路径：<code>EFT\Aki_Data\Server\configs\bot</code></p>
+</blockquote>
+<p>打开文件下拉到最后找到<code>maxbotcap</code>（酌情根据自己的电脑配置修改！！！）</p>
+<p>配合地图文件（路径：<code>EFT\Aki_Data\Server\database\locations\地图文件夹\base</code>）文件内</p>
+<p>建议修改第一步的bot文件夹中的足以，后面的之前2.3.1版本专门测试过ai感觉作用不大（主要在于修改以后比如海关的狙击ai基本没见到过了，一些特殊ai）</p>
+<p>Boss刷新概率搜索<code>BossLocationSpawn</code>中的<code>BossChance</code>字段</p>
+<hr>
+<h3 id="卢布堆叠"><a href="#卢布堆叠" class="headerlink" title="卢布堆叠"></a>卢布堆叠</h3><p>路径：<code>EFT3.1\Aki_Data\Server\database\templates\item</code><br>卢布：<code>5449016a4bdc2d6f028b456f</code><br>欧元：<code>569668774bdc2da2298b4568</code><br>美元：<code>5696686a4bdc2da3298b456a</code></p>
+<p>找到<code>StackObjectsCount</code>修改 </p>
+<hr>
+<h3 id="战局内拾取物品上限修改"><a href="#战局内拾取物品上限修改" class="headerlink" title="战局内拾取物品上限修改"></a>战局内拾取物品上限修改</h3><p>战局内捡到物资上限</p>
+<blockquote>
+<p>打开globals（路径：<code>EFT3.1\Aki_Data\Server\database\globals</code>）搜索<code>RestrictionsInRaid</code></p>
+</blockquote>
+<p>修改Value后面的数字即可</p>
+<hr>
+<h3 id="跳蚤市场单物品解禁"><a href="#跳蚤市场单物品解禁" class="headerlink" title="跳蚤市场单物品解禁"></a>跳蚤市场单物品解禁</h3><blockquote>
+<p>路径：<code>Aki_Data\Server\database\templates\item</code><br>将CanSellOnRagfair:false替换为CanSellOnRagfair:true</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>逃离塔克夫</tag>
+        <tag>修改</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>塔克夫离线版联机指南</title>
+    <url>/2024/08/25/%E5%A1%94%E5%85%8B%E5%A4%AB%E7%A6%BB%E7%BA%BF%E7%89%88%E8%81%94%E6%9C%BA%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<h1 id="逃离塔克夫离线版联机指南"><a href="#逃离塔克夫离线版联机指南" class="headerlink" title="逃离塔克夫离线版联机指南"></a>逃离塔克夫离线版联机指南</h1>
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>SPT-AKI 3.9.8版本(2024&#x2F;8&#x2F;20)<br><em><strong>注意修改的时候需要关闭服务端，否则修改不生效。修改完成后再启动服务端再进游戏即可生效。</strong></em><br><strong>注意，Fika项目只支持SPT3.8.0以上的版本！</strong></p>
+
+  </div>
+
+<h3 id="SPT-AKI-永远不会正式实施任何多人游戏或合作游戏功能。"><a href="#SPT-AKI-永远不会正式实施任何多人游戏或合作游戏功能。" class="headerlink" title="SPT-AKI 永远不会正式实施任何多人游戏或合作游戏功能。"></a>SPT-AKI 永远不会正式实施任何多人游戏或合作游戏功能。</h3><h4 id="以下是-SPT-团队不会考虑实施合作游戏的几个原因："><a href="#以下是-SPT-团队不会考虑实施合作游戏的几个原因：" class="headerlink" title="以下是 SPT 团队不会考虑实施合作游戏的几个原因："></a>以下是 SPT 团队不会考虑实施合作游戏的几个原因：</h4><ul>
+<li>有悖于 SPT 的目标，即允许离线（单人）进行 EFT，与他人一起游戏从来都不是目标，因此该项目被命名为”单人塔可夫”。</li>
+<li>SPT 是对 EFT 离线突袭模式的修改，在突袭后会保存配置文件数据。</li>
+<li>“SPT 服务器”只是一个将个人资料保存到硬盘的系统，同时还模拟了贸易商、跳蚤市场、藏身处等。</li>
+<li>BattleState Games 是 EFT 的开发商，如果加入 COOP，他们很可能会在巨大的法律压力下废除该项目。SPT 将立即停止存在。</li>
+<li>SPT 以外的人曾多次尝试创建 COOP 系统，但都因其复杂性而失败。</li>
+</ul>
+<h2 id="本教程使用第三方联机mod-‘Fika’-实现离线联机功能"><a href="#本教程使用第三方联机mod-‘Fika’-实现离线联机功能" class="headerlink" title="本教程使用第三方联机mod ‘Fika’ 实现离线联机功能"></a>本教程使用第三方联机mod ‘Fika’ 实现离线联机功能</h2><h2 id="下载Fika联机mod"><a href="#下载Fika联机mod" class="headerlink" title="下载Fika联机mod"></a>下载Fika联机mod</h2><p>BepinEX插件: <a class="link"   href="https://github.com/project-fika/Fika-Plugin" >https://github.com/project-fika/Fika-Plugin <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>Server Mod:  <a class="link"   href="https://github.com/project-fika/Fika-Server" >https://github.com/project-fika/Fika-Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>进入项目页面后，点击右边的Releases选项，选择适合你游戏版本的编译版本。</p>
+<blockquote>
+<p>本教程使用<code>Fika server 2.2.6</code> 版本（SPT3.9.4）<br>Fika Plugin推荐使用<code>Fika Release 0.9.8994.30440</code>以上的版本，他支持断线重连、国际化等新的特性…<br><strong>注意，Fika项目只支持SPT3.8.0以上的版本！</strong></p>
+</blockquote>
+<h2 id="安装mod"><a href="#安装mod" class="headerlink" title="安装mod"></a>安装mod</h2><h3 id="以下在你的逃离塔克夫离线版根目录下操作："><a href="#以下在你的逃离塔克夫离线版根目录下操作：" class="headerlink" title="以下在你的逃离塔克夫离线版根目录下操作："></a>以下在你的逃离塔克夫离线版根目录下操作：</h3><ol>
+<li>将下载好的<code>Fika Server</code> mod解压到游戏根目录中的 <code>user</code> 文件夹中，他会自动与里面的<code>mods</code>文件夹合并。<blockquote>
+<p><strong>注意，如果游戏根目录下不存在<code>user</code>文件夹，请确保在安装mod前，至少运行一次<code>SPT.Server</code>!</strong>  </p>
+</blockquote>
+</li>
+<li>将下载好的<code>Fika Release</code> mod解压到游戏根目录中的 <code>BepinEx</code> 目录中,他会自动与里面的 <code>Plugins</code> 文件夹合并。  </li>
+<li>运行一次SPT.Server，检查是否显示<code>模组：server 版本2.2.6 作者：Fika 已加载</code>，显示成功代表你已经安装好<code>Fika Server</code> mod了<blockquote>
+<p>如果显示“找不带xxx.json”等其他错误，可能是你下载的Fika版本与SPT版本不兼容（版本不匹配）</p>
+</blockquote>
+</li>
+<li>进入游戏，按下F12,如果显示<code>Fika.Core</code>选项，代表你安装好了<code>Fika Release</code>，你可以进行下一步操作了。</li>
+</ol>
+<h2 id="安装Radmin-Lan"><a href="#安装Radmin-Lan" class="headerlink" title="安装Radmin Lan"></a>安装Radmin Lan</h2><a class="button  center large" href='https://www.radmin-lan.cn/' title='官网'><i class='fa-solid fa-download'></i> 官网</a>
+<p>点击“免费下载”按钮，安装Radmin Lan<br>注册登录后，如果是<code>主机端（房主）</code>，点击“创建网络”，输入网络名字和密码后创建网络。<br>如果是<code>客户端</code>，点击加入网络，加入主机端的网络即可。<br>以上操作完成，进入下一步。</p>
+<h2 id="更改http配置"><a href="#更改http配置" class="headerlink" title="更改http配置"></a>更改http配置</h2>
+  <div class="note p-4 mb-4 rounded-small warning icon-padding">
+    <i class="note-icon fa-solid fa-warning"></i><p>开始之前，请确保你至少运行过一次SPT.Server。</p>
+
+  </div>
+
+<ol>
+<li>进入目录游戏根目录<code>\SPT_Data\Server\configs</code>，找到<code>http.json</code>文件.  </li>
+<li>打开后将第一行”ip”改为 “0.0.0.0”,第三行”backendIp”改为Radmin Lan软件中的你电脑名称下方的IP地址。  </li>
+<li>保存文件后退出。<br>以上操作完成，进入下一步。</li>
+</ol>
+<h2 id="更改游戏内配置"><a href="#更改游戏内配置" class="headerlink" title="更改游戏内配置"></a>更改游戏内配置</h2><ol>
+<li>打开游戏，按下F12.</li>
+<li>找到<code>Fika.Core</code>选项，展开找到<code>Force IP</code>，输入<code>主机端</code>的RadminLan显示的ip地址。  </li>
+<li>如果是客户端，需要额外选择<code>Force Bind IP</code>为<code>客户端自己</code>的RadminLan的IP地址 (这步主机端无需操作)。<br>以上操作完成，进入下一步。</li>
+</ol>
+<h2 id="开始联机"><a href="#开始联机" class="headerlink" title="开始联机"></a>开始联机</h2><ol>
+<li><code>主机端</code>开启<code>SPT.Server</code>,打开SPT.Launcher无需操作，直接开始游戏。</li>
+<li><code>客户端</code>直接打开<code>SPT.Launcher</code>，等待加载失败后，点击右上角的<code>设置</code>按钮，把<code>Developer Mode</code>勾选上.  </li>
+<li>将最下方URL中的<code>127.0.0.1</code>替换为主机的RadminLan地址，返回重新加载。  </li>
+<li>如果配置成功的话，这时将链接主机端成功，创建存档，开始游戏。</li>
+</ol>
+<h2 id="加入房间"><a href="#加入房间" class="headerlink" title="加入房间"></a>加入房间</h2><ol>
+<li>主机端选择地图，时间。点击最右边的“HOST RAID”,选择联机人数，算上主机自己。点击Start</li>
+<li>客户端点击与主机相同的地图，时间，在右边就可以看到主机的房间了，点击“JOIN”加入房间。</li>
+<li>加载完毕后，就可以愉快联机了！</li>
+</ol>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol>
+<li>在以后联机中，客户端无需开启SPT.Server</li>
+<li>联机存档都将放在主机端电脑中</li>
+<li>主机端在联机时，只需要打开SPT.Server,打开启动器后开始游戏。</li>
+<li>主机端，客户端联机时需要打开RadminLan，加入主机网络。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>逃离塔克夫</tag>
+        <tag>联机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何免费创建属于自己的博客？（setp 1）</title>
+    <url>/2024/09/08/%E5%A6%82%E4%BD%95%E5%85%8D%E8%B4%B9%E5%88%9B%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%9F(setp%201)/</url>
+    <content><![CDATA[<h2 id="本教程手把手教你如何创建属于你自己的博客！"><a href="#本教程手把手教你如何创建属于你自己的博客！" class="headerlink" title="本教程手把手教你如何创建属于你自己的博客！"></a>本教程手把手教你如何创建属于你自己的博客！</h2><h3 id="准备："><a href="#准备：" class="headerlink" title="准备："></a>准备：</h3><ol>
+<li>一台电脑（windows10及以上）</li>
+<li>一个邮箱（注册账号使用）</li>
+<li>一个github账号</li>
+<li>一个Cloudflare账号</li>
+</ol>
+<h2 id="1-安装软件"><a href="#1-安装软件" class="headerlink" title="1.安装软件"></a>1.安装软件</h2><p>要使用Hexo傻瓜式部署一个博客，首先，需要安装一些它依赖的软件。</p>
+<ol>
+<li>vscode</li>
+<li>nodejs</li>
+<li>git</li>
+</ol>
+<h3 id="Vscode的安装"><a href="#Vscode的安装" class="headerlink" title="Vscode的安装"></a>Vscode的安装</h3>
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>“Visual Studio Code（简称“VS Code”）是Microsoft在2015年4月30日Build开发者大会上正式宣布一个运行于 Mac OS X、Windows和 Linux 之上的，针对于编写现代Web和云应用的跨平台源代码编辑器，可在桌面上运行，并且可用于Windows，macOS和Linux。它具有对JavaScript，TypeScript和Node.js的内置支持，并具有丰富的其他语言（例如C++，C＃，Java，Python，PHP，Go）和运行时（例如.NET和Unity）扩展的生态系统。 “<br>主要的是，它开源</p>
+
+  </div>
+<a class="button  regular" href='https://vscode.github.net.cn/' title='官网'><i class='fa-solid fa-download'></i> 官网</a>
+<p>如果你是windows电脑，安装windows版本，mac就安装macos版本。</p>
+<h3 id="Nodejs安装"><a href="#Nodejs安装" class="headerlink" title="Nodejs安装"></a>Nodejs安装</h3><p>可以在nodejs中文网安装nodejs</p>
+
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>Node.js 建立在 Google Chrome V8 JavaScript 引擎之上，主要用于创建网络服务器 - 但不仅限于此。<br>Node.js 是一个开源和跨平台的 JavaScript 运行时环境。 它是几乎任何类型项目的流行工具！</p>
+
+  </div>
+<a class="button  regular" href='https://nodejs.cn/download/' title='在 Nodejs 中文网 下载'><i class='fa-solid fa-download'></i> 在 Nodejs 中文网 下载</a>
+<p>长期支持版和最新版都可以，选择适合你系统的版本（Windows,MacOS,Liunx下载源代码自行编译）</p>
+<h3 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h3>
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。<br>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。<br>Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。</p>
+
+  </div>
+<p>根据操作系统选择下载  </p>
+<a class="button  regular" href='https://git-scm.com/download/win' title='Git for Windows 下载'><i class='fa-solid fa-download'></i> Git for Windows 下载</a>
+
+<a class="button  regular" href='https://git-scm.com/download/mac' title='Git for MacOS 下载'><i class='fa-solid fa-download'></i> Git for MacOS 下载</a>
+
+<a class="button  regular" href='https://git-scm.com/download/linux' title='Git for Liunx 下载'><i class='fa-solid fa-download'></i> Git for Liunx 下载</a>
+
+<p>保持默认，一直点击下一步就可以。</p>
+<h2 id="2-注册账号"><a href="#2-注册账号" class="headerlink" title="2.注册账号"></a>2.注册账号</h2><h3 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册Github账号</h3>
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>关于 GitHub<br>GitHub 是一种基于云的平台，可在其中存储、共享并与他人一起编写代码。</p>
+<p>通过将代码存储在 GitHub 上的“存储库”中，你将可以：</p>
+<p>“展示或共享” 你的工作。<br>持续“跟踪和管理” 对代码的更改。<br>让其他人“审查” 你的代码，并提出改进建议。<br>在共享的项目中开展“协作”，无需担心这些更改会在准备好集成更改之前影响协作者的工作。<br>协作式工作是 GitHub 最基本的功能之一，该功能由开源软件 Git 实现，而 GitHub 是以该软件为基础进行构建的。</p>
+
+  </div>
+
+<a class="button  regular" href='https://github.com/' title='Github'><i class='fa-brands fa-github'></i> Github</a>
+
+<p>进入github</p>
+<p>点击右上角的<code>Sing up</code>注册账号  </p>
+<ul>
+<li><code>Enter your email*</code> -&gt; 输入你的邮箱  </li>
+<li><code>Create a password*</code> -&gt;创建你的密码  </li>
+<li><code>Enter a username*</code> -&gt; 输入你的用户名（英文）  </li>
+<li><code>Email preferences</code> -&gt; 验证邮箱<br>完成人机验证并验证邮箱，账号就注册成功了。<br>注册成功后，下一步将你的git链接到github上，就可以将代码存放在github上了。</li>
+</ul>
+<h3 id="创建Cloudflare账号"><a href="#创建Cloudflare账号" class="headerlink" title="创建Cloudflare账号"></a>创建Cloudflare账号</h3>
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>Cloudflare 的使命是帮助构建更好的互联网。 </p>
+<p>Cloudflare 是世界最大的网络之一。今天，企业、非营利组织、博客作者和任何有互联网存在的人都因为 Cloudflare 而拥有更快、更安全的网站和应用。 </p>
+<p><a class="button  regular" href='https://www.cloudflare-cn.com/learning/what-is-cloudflare/' title='关于 Cloudflare'><i class='fa-brands fa-cloudflare'></i> 关于 Cloudflare</a></p>
+
+  </div>
+
+
+<a class="button  regular" href='https://dash.cloudflare.com/sign-up' title='注册 Cloudflare'><i class='fa-brands fa-cloudflare'></i> 注册 Cloudflare</a>
+
+<p>填入邮箱和密码</p>
+<h2 id="3-Git-与-Github"><a href="#3-Git-与-Github" class="headerlink" title="3.Git 与 Github"></a>3.Git 与 Github</h2><h3 id="创建存储库"><a href="#创建存储库" class="headerlink" title="创建存储库"></a>创建存储库</h3><p>打开github,登录账户。</p>
+<p>点击右上角的加号<br>点击 <code>new repository</code> 创建新的存储库。<br>填入存储库名称（英文） -&gt; <code>Repository name*</code><br>点击创建。</p>
+<h3 id="配置git"><a href="#配置git" class="headerlink" title="配置git"></a>配置git</h3><p>设置名称与邮箱</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;注册名&quot;</span><br><span class="line">git config --global user.email &quot;注册邮箱&quot;</span><br></pre></td></tr></table></figure></div>
+
+<p>生成密钥</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;自己的邮箱&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>SSH文件存放在C:&#x2F;User&#x2F;用户&#x2F;.ssh下，id_rsa为私钥，id_rsa.pub为公钥。</p>
+<h3 id="配置ssh"><a href="#配置ssh" class="headerlink" title="配置ssh"></a>配置ssh</h3><p>打开id_rsa.pub文件，全选，复制全文</p>
+<p>打开github<br>github-&gt;账户-&gt;setting</p>
+<p>选择SSH and GPGkeys，New SSH key</p>
+<p>自定义一个title，然后粘贴从公钥文件中拷贝的key</p>
+<h3 id="测试SSH"><a href="#测试SSH" class="headerlink" title="测试SSH"></a>测试SSH</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure></div>
+<p>按照提示输入yes，回车，提示successfully之类的就说明SSH连接正常，github上的钥匙也会变成绿色</p>
+<p>至此，本地git客户端和远程github建立了联系。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何免费创建属于自己的博客？（step 2）</title>
+    <url>/2024/09/09/%E5%A6%82%E4%BD%95%E5%85%8D%E8%B4%B9%E5%88%9B%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%9F%EF%BC%88step%202%EF%BC%89/</url>
+    <content><![CDATA[<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在你常用的目录下新建一个文件夹，名字随意（英文）<br>打开vscode,打开新建的文件夹。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></div>
+<p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure></div>
+
+<p>初始化后，您的项目文件夹将如下所示：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── <span class="built_in">source</span></span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure></div>
+<h3 id="文件说明"><a href="#文件说明" class="headerlink" title="文件说明:"></a>文件说明:</h3><p><code>_config.yml</code><br>网站的 配置 文件。 您可以在此配置大部分的参数。</p>
+<p><code>package.json</code><br>应用程序的信息。 EJS, Stylus 和 Markdown 渲染引擎 已默认安装，您可以自由移除。 如果您想，可以稍后卸载它们。</p>
+<div class="highlight-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line">package.json</span><br><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;hexo-site&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;0.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;private&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;hexo&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;dependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;hexo&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^7.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;hexo-generator-archive&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^2.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;hexo-generator-category&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^2.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;hexo-generator-index&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^3.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;hexo-generator-tag&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^2.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;hexo-renderer-ejs&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^2.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;hexo-renderer-stylus&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^3.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;hexo-renderer-marked&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^6.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;hexo-server&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^3.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;hexo-theme-landscape&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^1.0.0&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></div>
+<p><code>scaffolds</code><br>模版 文件夹。 当您新建文章时，Hexo 会根据 scaffold 来创建文件。</p>
+<p><code>source</code><br>资源文件夹。 是存放用户资源的地方。 除 _posts 文件夹之外，开头命名为 _ (下划线)的文件 &#x2F; 文件夹和隐藏的文件将会被忽略。 Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。</p>
+<p><code>themes</code><br>主题 文件夹。 Hexo 会根据主题来生成静态页面。</p>
+<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>可根据官方配置文档设置。</p>
+<a class="button  regular" href='https://hexo.io/zh-cn/docs/configuration' title='Hexo配置文档'><i class='fa-brands fa-hexo'></i> Hexo配置文档</a>
+
+<p>主要配置</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">`title`	网站标题</span><br><span class="line">`subtitle`	网站副标题</span><br><span class="line">`description`	网站描述</span><br><span class="line">`keywords`	网站的关键词。 支持多个关键词。</span><br><span class="line">`author`	您的名字</span><br><span class="line">`language`	网站使用的语言。 使用 2 个字母的 ISO-639-1 代码，或 它的变体。 默认为 en。</span><br><span class="line">`timezone`	网站时区。 Hexo 默认使用您电脑的时区。 请参考 时区列表 进行设置，如 America/New_York, Japan, 和 UTC 。 一般的，对于中国大陆地区可以使用 Asia/Shanghai。</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h3>
+  <div class="note p-4 mb-4 rounded-small warning icon-padding">
+    <i class="note-icon fa-solid fa-warning"></i><p>建议都看一遍</p>
+
+  </div>
+
+<a class="button  regular" href='https://hexo.io/zh-cn/docs/commands' title='Hexo指令文档'><i class='fa-brands fa-hexo'></i> Hexo指令文档</a>
+
+<h2 id="上传到github"><a href="#上传到github" class="headerlink" title="上传到github"></a>上传到github</h2><p>当你运行过</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></div>
+<p>后，就可以试试看把博客中的文件推送到新建的远程仓库了</p>
+<p>在目录下运行</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
+<p>初始化git</p>
+<p>打开VScode中的<code>源代码管理选项卡</code>,就可以看到当前存储库的信息了。<br>选择当前存储库，点击右边的<code>...</code>展开选项，在弹出的菜单中选择<code>远程</code>-&gt;<code>添加远程存储库</code>,选择<code>从github上添加仓库</code>，选择新建的仓库。<br>或者在当前目录执行</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add origin https://自己的仓库url地址</span><br></pre></td></tr></table></figure></div>
+<p>将当前仓库关联到github。</p>
+<p>接下来就可以上传文件到github了。</p>
+<h2 id="使用vercel托管静态网站"><a href="#使用vercel托管静态网站" class="headerlink" title="使用vercel托管静态网站"></a>使用vercel托管静态网站</h2><p>打开 vercel官网。</p>
+<a class="button  regular" href='https://vercel.com/' title='vercel'><i class='fa-brands fa-hexo'></i> vercel</a>
+
+<p>点击<code>start deploying</code>创建一个项目，导入git仓库选择<code>github</code><br>登录github后，选择之前创建的存储库.<br>点击Deploy，等待部署完成即可。</p>
+<p>部署完成后，就可以访问你的博客了。<br>当你以后更新文章时，只需要在本地编辑完成后上传到github,vercel就会自动编译项目并部署。</p>
+<h2 id="绑定你的域名"><a href="#绑定你的域名" class="headerlink" title="绑定你的域名"></a>绑定你的域名</h2><p>现在vercel.app 域名已经被各大搜索引擎屏蔽，无法被收录。<br>vercel.app 根域名已经被中国大陆防火长城屏蔽，中国国内无法访问，如果你的读者面向国内，不建议使用</p>
+<p>可以绑定你购买的域名，用于国内访问。</p>
+<a class="button  regular" href='https://dash.cloudflare.com' title='Cloudflare'><i class='fa-brands fa-cloudflare'></i> Cloudflare</a>
+
+<p>登录Cloudflare,绑定你购买的域名。<br>将你购买的域名托管至CloudFlare上。（通常在域名提供商上修改DNS等）</p>
+<p>现在转回到Vercel</p>
+<p>点击编译好的项目，点击右上角的<code>Domains</code>绑定你的域名。<br>在输入框中输入你托管至Cloudeflare的域名。根据提示到cloudflare修改DNS.</p>
+<p>互联网上很多教程，本文不再概述。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>华为防火墙配置双机热备</title>
+    <url>/2024/09/27/%E5%8D%8E%E4%B8%BA%E9%98%B2%E7%81%AB%E5%A2%99%E9%85%8D%E7%BD%AE%E5%8F%8C%E6%9C%BA%E7%83%AD%E5%A4%87/</url>
+    <content><![CDATA[
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>本实验使用ensp仿真模拟器配置</p>
+
+  </div>
+
+<h1 id="配置主备备份模式的双机热备"><a href="#配置主备备份模式的双机热备" class="headerlink" title="配置主备备份模式的双机热备"></a>配置主备备份模式的双机热备</h1><p>主备备份模式的双机热备，其中一台防火墙处于<code>Active</code>(活动)状态用于转发数据，另一台防火墙处于<code>Standby</code>(备份)状态不转发数据，两台防火墙通过心跳线同步信息。当处于Active状态的防火墙处于故障时，处于Standby状态的防火墙切换为Active状态，继续提供服务，以避免网络访问处于中断状态。</p>
+<h2 id="实验目的"><a href="#实验目的" class="headerlink" title="实验目的"></a>实验目的</h2><p>配置HFW1防火墙为<code>Active</code>设备，配置HFW3防火墙为<code>Standby</code>设备，两台防火墙均可以访问互联网，当Active设备发生故障时能够实现切换，虚拟机访问互联网不会中断。</p>
+<h2 id="实验设备"><a href="#实验设备" class="headerlink" title="实验设备"></a>实验设备</h2><p>华为<code>USG6000v</code>防火墙2台（简称HFW1、HFW3）</p>
+<h2 id="实验拓扑"><a href="#实验拓扑" class="headerlink" title="实验拓扑"></a>实验拓扑</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/%E9%98%B2%E7%81%AB%E5%A2%99%E5%8F%8C%E6%9C%BA%E7%83%AD%E5%A4%87%E6%8B%93%E6%89%91.png"
+                      alt="实验拓扑" title="防火墙双机热备拓扑"
+                ></p>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><p>先登录防火墙，更改密码</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">FW1:</span><br><span class="line">Username:admin</span><br><span class="line">Password:Admin@123</span><br><span class="line">The password needs to be changed. Change now? [Y/N]: y</span><br><span class="line">Please enter old password: Admin@123</span><br><span class="line">Please enter new password: huawei@123</span><br><span class="line">Please confirm new password: huawei@123</span><br><span class="line">&lt;USG6000V1&gt; sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[USG6000V1] sy FW1</span><br><span class="line">[FW1]un <span class="keyword">in</span> en</span><br><span class="line">Info: Saving <span class="built_in">log</span> files...</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[FW1]</span><br><span class="line"></span><br><span class="line">-------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">FW2:</span><br><span class="line">Username:admin</span><br><span class="line">Password:Admin@123</span><br><span class="line">The password needs to be changed. Change now? [Y/N]: y</span><br><span class="line">Please enter old password: Admin@123</span><br><span class="line">Please enter new password: huawei@123</span><br><span class="line">Please confirm new password: huawei@123</span><br><span class="line">&lt;USG6000V2&gt; sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[USG6000V2] sy FW2</span><br><span class="line">[FW2]un <span class="keyword">in</span> en</span><br><span class="line">Info: Saving <span class="built_in">log</span> files...</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[FW2]</span><br></pre></td></tr></table></figure></div>
+<h2 id="配置IP地址"><a href="#配置IP地址" class="headerlink" title="配置IP地址"></a>配置IP地址</h2><p>FW1的防火墙接口IP地址</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">FW1:</span><br><span class="line">[FW1]int g1/0/6</span><br><span class="line">[FW1-GigabitEthernet1/0/6]ip add 118.122.120.83 24</span><br><span class="line">[FW1-GigabitEthernet1/0/6]service-manage ping permit </span><br><span class="line">[FW1]int g1/0/5</span><br><span class="line">[FW1-GigabitEthernet1/0/5]ip add 192.168.1.1 24</span><br><span class="line">[FW1-GigabitEthernet1/0/5]service-manage ping permit </span><br><span class="line">[FW1]int g1/0/2</span><br><span class="line">[FW1-GigabitEthernet1/0/2]ip add 10.1.1.1 24</span><br><span class="line">[FW1-GigabitEthernet1/0/2]service-manage ping permit </span><br></pre></td></tr></table></figure></div>
+<p>FW2的防火墙接口IP地址</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">FW2:</span><br><span class="line">[FW2]int g1/0/6</span><br><span class="line">[FW2-GigabitEthernet1/0/6]ip add 118.122.120.84 24</span><br><span class="line">[FW2-GigabitEthernet1/0/6]service-manage ping permit </span><br><span class="line">[FW2]int g1/0/5</span><br><span class="line">[FW2-GigabitEthernet1/0/5]ip add 192.168.1.2 24</span><br><span class="line">[FW2-GigabitEthernet1/0/5]service-manage ping permit </span><br><span class="line">[FW2]int g1/0/2</span><br><span class="line">[FW2-GigabitEthernet1/0/2]ip add 10.1.1.2 24</span><br><span class="line">[FW2-GigabitEthernet1/0/2]service-manage ping permit </span><br></pre></td></tr></table></figure></div>
+<h2 id="配置防火墙安全区域"><a href="#配置防火墙安全区域" class="headerlink" title="配置防火墙安全区域"></a>配置防火墙安全区域</h2><p>FW1的安全区域配置</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]firewall zone trust </span><br><span class="line">[FW1-zone-trust]add int g1/0/2</span><br><span class="line">[FW1]firewall zone untrust </span><br><span class="line">[FW1-zone-untrust]add int g1/0/6</span><br><span class="line">[FW1]firewall zone dmz</span><br><span class="line">[FW1-zone-dmz]add int g1/0/5</span><br></pre></td></tr></table></figure></div>
+<p>FW2的安全区域配置</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW2]firewall zone trust </span><br><span class="line">[FW2-zone-trust]add int g1/0/2</span><br><span class="line">[FW2]firewall zone untrust </span><br><span class="line">[FW2-zone-untrust]add int g1/0/6</span><br><span class="line">[FW2]firewall zone dmz</span><br><span class="line">[FW2-zone-dmz]add int g1/0/5</span><br></pre></td></tr></table></figure></div>
+<h2 id="配置防火墙安全策略"><a href="#配置防火墙安全策略" class="headerlink" title="配置防火墙安全策略"></a>配置防火墙安全策略</h2><p>FW1，FW2策略相同，这里用FW1做例子。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]security-policy </span><br><span class="line">[FW1-policy-security]rule name to_untrust</span><br><span class="line">[FW1-policy-security-rule-to_untrust]source-zone trust </span><br><span class="line">[FW1-policy-security-rule-to_untrust]source-zone dmz</span><br><span class="line">[FW1-policy-security-rule-to_untrust]source-zone <span class="built_in">local</span></span><br><span class="line">[FW1-policy-security-rule-to_untrust]destination-zone any</span><br><span class="line">[FW1-policy-security-rule-to_untrust]action permit </span><br><span class="line">[FW1-policy-security-rule-to_untrust]dis this</span><br><span class="line">xxxx-xx-xx xx:xx:xx.xxx </span><br><span class="line"><span class="comment">#</span></span><br><span class="line"> rule name to_untrust</span><br><span class="line">  source-zone dmz</span><br><span class="line">  source-zone <span class="built_in">local</span></span><br><span class="line">  source-zone trust</span><br><span class="line">  action permit</span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="built_in">return</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="配置nat策略"><a href="#配置nat策略" class="headerlink" title="配置nat策略"></a>配置nat策略</h2><p>FW1,FW2相同，例FW1：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]nat-policy </span><br><span class="line">[FW1-policy-nat]rule name to_untrust_nat</span><br><span class="line">[FW1-policy-nat-rule-to_untrust_nat]destination-zone untrust </span><br><span class="line">[FW1-policy-nat-rule-to_untrust_nat]action source-nat easy-ip </span><br><span class="line">[FW1-policy-nat-rule-to_untrust_nat]dis this</span><br><span class="line">xxxx-xx-xx xx:xx:xx.xxx</span><br><span class="line"><span class="comment">#</span></span><br><span class="line"> rule name to_untrust_nat</span><br><span class="line">  destination-zone untrust</span><br><span class="line">  action source-nat easy-ip</span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="built_in">return</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="配置vrrp"><a href="#配置vrrp" class="headerlink" title="配置vrrp"></a>配置vrrp</h2><p>FW1:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]int g1/0/2</span><br><span class="line">[FW1-GigabitEthernet1/0/2]vrrp vrid 1 virtual-ip 10.1.1.100 24 active </span><br><span class="line">[FW1]int g1/0/6</span><br><span class="line">[FW1-GigabitEthernet1/0/6]vrrp vrid 2 virtual-ip 118.122.120.254 24 active </span><br></pre></td></tr></table></figure></div>
+<p>FW2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW2]int g1/0/2</span><br><span class="line">[FW2-GigabitEthernet1/0/2]vrrp vrid 1 virtual-ip 10.1.1.100 24 standby</span><br><span class="line">[FW2]int g1/0/6</span><br><span class="line">[FW2-GigabitEthernet1/0/6]vrrp vrid 2 virtual-ip 118.122.120.254 24 standby  </span><br></pre></td></tr></table></figure></div>
+<h2 id="配置心跳线路"><a href="#配置心跳线路" class="headerlink" title="配置心跳线路"></a>配置心跳线路</h2><p>FW1:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]hrp interface GigabitEthernet 1/0/5 remote 192.168.1.2</span><br><span class="line">[FW1]hrp <span class="built_in">enable</span></span><br><span class="line">Info: NAT IP detect <span class="keyword">function</span> is disabled.</span><br><span class="line">HRP_S[FW1]</span><br><span class="line">HRP_S[FW1]dis hrp state</span><br><span class="line">xxxx-xx-xx xx:xx:xx.xxx</span><br><span class="line"> Role: active, peer: standby <span class="comment">#活动</span></span><br><span class="line"> Running priority: 45000, peer: 45000</span><br><span class="line"> Backup channel usage: 0.00%</span><br><span class="line"> Stable time: 0 days, 0 hours, 0 minutes</span><br><span class="line"> Last state change information: 2024-09-27 13:05:59 HRP core state changed, old_</span><br><span class="line">state = abnormal(standby), new_state = normal, local_priority = 45000, peer_prio</span><br><span class="line">rity = 45000.</span><br><span class="line"></span><br><span class="line">HRP_M[FW1]</span><br></pre></td></tr></table></figure></div>
+<p>FW2：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW2]hrp interface GigabitEthernet 1/0/5 remote 192.168.1.1</span><br><span class="line">[FW2]hrp standby-device </span><br><span class="line">[FW2]hrp <span class="built_in">enable</span></span><br><span class="line">Info: NAT IP detect <span class="keyword">function</span> is disabled.</span><br><span class="line">HRP_S[FW2]dis hrp state</span><br><span class="line">xxxx-xx-xx xx:xx:xx.xxx </span><br><span class="line"> Role: standby, peer: active <span class="comment">#备份</span></span><br><span class="line"> Running priority: 45000, peer: 45000</span><br><span class="line"> Backup channel usage: 0.00%</span><br><span class="line"> Stable time: 0 days, 0 hours, 0 minutes</span><br><span class="line"> Last state change information: 2024-09-27 13:05:58 HRP <span class="built_in">link</span> changes to up.</span><br><span class="line"></span><br><span class="line">HRP_S[FW2]</span><br></pre></td></tr></table></figure></div>
+<h2 id="查看vrrp配置"><a href="#查看vrrp配置" class="headerlink" title="查看vrrp配置"></a>查看vrrp配置</h2><p>FW1：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">HRP_M[FW1]dis vrrp</span><br><span class="line">xxxx-xx-xx xx:xx:xx.xxxx </span><br><span class="line">  GigabitEthernet1/0/2 | Virtual Router 1</span><br><span class="line">    State : Master <span class="comment">#主根</span></span><br><span class="line">    Virtual IP : 10.1.1.100 <span class="comment">#虚拟网关</span></span><br><span class="line">    Master IP : 10.1.1.1 <span class="comment">#实际IP</span></span><br><span class="line">    PriorityRun : 120</span><br><span class="line">    PriorityConfig : 100</span><br><span class="line">    MasterPriority : 120</span><br><span class="line">    Preempt : YES   Delay Time : 0 s</span><br><span class="line">    TimerRun : 60 s</span><br><span class="line">    TimerConfig : 60 s</span><br><span class="line">    Auth <span class="built_in">type</span> : NONE</span><br><span class="line">    Virtual MAC : 0000-5e00-0101</span><br><span class="line">    Check TTL : YES</span><br><span class="line">    Config <span class="built_in">type</span> : vgmp-vrrp</span><br><span class="line">    Backup-forward : disabled</span><br><span class="line">    Create time : xxxx-xx-xx xx:xx:xx</span><br><span class="line">    Last change time : xxxx-xx-xx xx:xx:xx</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">  GigabitEthernet1/0/6 | Virtual Router 2</span><br><span class="line">    State : Master <span class="comment">#主根</span></span><br><span class="line">    Virtual IP : 118.122.120.254 <span class="comment">#虚拟网关</span></span><br><span class="line">    Master IP : 118.122.120.83 <span class="comment">#实际IP</span></span><br><span class="line">    PriorityRun : 120</span><br><span class="line">    PriorityConfig : 100</span><br><span class="line">    MasterPriority : 120</span><br><span class="line">    Preempt : YES   Delay Time : 0 s</span><br><span class="line">    TimerRun : 60 s</span><br><span class="line">    TimerConfig : 60 s</span><br><span class="line">    Auth <span class="built_in">type</span> : NONE</span><br><span class="line">    Virtual MAC : 0000-5e00-0102</span><br><span class="line">    Check TTL : YES</span><br><span class="line">    Config <span class="built_in">type</span> : vgmp-vrrp</span><br><span class="line">    Backup-forward : disabled</span><br><span class="line">    Create time : xxxx-xx-xx xx:xx:xx</span><br><span class="line">    Last change time : xxxx-xx-xx xx:xx:xx</span><br><span class="line"></span><br><span class="line">HRP_M[FW1]</span><br></pre></td></tr></table></figure></div>
+<p>FW2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">HRP_S[FW2]dis vrrp</span><br><span class="line">xxxx-xx-xx xx:xx:xx.xxx </span><br><span class="line">  GigabitEthernet1/0/2 | Virtual Router 1</span><br><span class="line">    State : Backup <span class="comment">#备份</span></span><br><span class="line">    Virtual IP : 10.1.1.100 <span class="comment">#虚拟网关</span></span><br><span class="line">    Master IP : 10.1.1.1 <span class="comment">#实际IP</span></span><br><span class="line">    PriorityRun : 120</span><br><span class="line">    PriorityConfig : 100</span><br><span class="line">    MasterPriority : 120</span><br><span class="line">    Preempt : YES   Delay Time : 0 s</span><br><span class="line">    TimerRun : 60 s</span><br><span class="line">    TimerConfig : 60 s</span><br><span class="line">    Auth <span class="built_in">type</span> : NONE</span><br><span class="line">    Virtual MAC : 0000-5e00-0101</span><br><span class="line">    Check TTL : YES</span><br><span class="line">    Config <span class="built_in">type</span> : vgmp-vrrp</span><br><span class="line">    Backup-forward : disabled</span><br><span class="line">    Create time : xxxx-xx-xx xx:xx:xx</span><br><span class="line">    Last change time : xxxx-xx-xx xx:xx:xx</span><br><span class="line"></span><br><span class="line">  GigabitEthernet1/0/6 | Virtual Router 2</span><br><span class="line">    State : Backup <span class="comment">#备份</span></span><br><span class="line">    Virtual IP : 118.122.120.254 <span class="comment">#虚拟网关</span></span><br><span class="line">    Master IP : 118.122.120.83 <span class="comment">#实际IP</span></span><br><span class="line">    PriorityRun : 120</span><br><span class="line">    PriorityConfig : 100</span><br><span class="line">    MasterPriority : 120</span><br><span class="line">    Preempt : YES   Delay Time : 0 s</span><br><span class="line">    TimerRun : 60 s</span><br><span class="line">    TimerConfig : 60 s</span><br><span class="line">    Auth <span class="built_in">type</span> : NONE</span><br><span class="line">    Virtual MAC : 0000-5e00-0102</span><br><span class="line">    Check TTL : YES</span><br><span class="line">    Config <span class="built_in">type</span> : vgmp-vrrp</span><br><span class="line">    Backup-forward : disabled</span><br><span class="line">    Create time : xxxx-xx-xx xx:xx:xx</span><br><span class="line">    Last change time : xxxx-xx-xx xx:xx:xx</span><br><span class="line"></span><br><span class="line">HRP_S[FW2]</span><br></pre></td></tr></table></figure></div>
+<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p>至此，配置完成。现在可以测试功能了。</p>
+<h2 id="测试nat"><a href="#测试nat" class="headerlink" title="测试nat"></a>测试nat</h2><p>PC1(10.1.1.10) ping Server1(118.122.120.200)<br>查看FW1会话表：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">HRP_M[FW1]display firewall session table </span><br><span class="line">xxxx-xx-xx xx:xx:xx.xxx </span><br><span class="line"> Current Total Sessions : 5</span><br><span class="line"> icmp  VPN: public --&gt; public  10.1.1.11:57776[118.122.120.83:2048] --&gt; 118.122.</span><br><span class="line">120.200:2048</span><br><span class="line"> icmp  VPN: public --&gt; public  10.1.1.11:58800[118.122.120.83:2052] --&gt; 118.122.</span><br><span class="line">120.200:2048</span><br><span class="line"> icmp  VPN: public --&gt; public  10.1.1.11:58544[118.122.120.83:2051] --&gt; 118.122.</span><br><span class="line">120.200:2048</span><br><span class="line"> icmp  VPN: public --&gt; public  10.1.1.11:58032[118.122.120.83:2049] --&gt; 118.122.</span><br><span class="line">120.200:2048</span><br><span class="line"> icmp  VPN: public --&gt; public  10.1.1.11:58288[118.122.120.83:2050] --&gt; 118.122.</span><br><span class="line">120.200:2048</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+<p>可以看到，nat地址转换正常工作，将trust区域地址转换为FW1的G1&#x2F;0&#x2F;6的IP地址</p>
+<h2 id="模拟故障测试"><a href="#模拟故障测试" class="headerlink" title="模拟故障测试"></a>模拟故障测试</h2><p>故意将FW1的1&#x2F;0&#x2F;6关闭，模拟线路故障:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">HRP_M[FW1]int g1/0/6 (+B)</span><br><span class="line">HRP_M[FW1-GigabitEthernet1/0/6]shutdown</span><br><span class="line">HRP_S[FW1]dis vrrp</span><br><span class="line">...</span><br><span class="line">GigabitEthernet1/0/6 | Virtual Router 2</span><br><span class="line">    State : Initialize <span class="comment">#处于初始化状态</span></span><br><span class="line">    Virtual IP : 118.122.120.254</span><br><span class="line">    Master IP : 0.0.0.0</span><br><span class="line">    PriorityRun : 120</span><br><span class="line">    PriorityConfig : 100</span><br><span class="line">    MasterPriority : 0</span><br><span class="line">    Preempt : YES   Delay Time : 0 s</span><br><span class="line">    TimerRun : 60 s</span><br><span class="line">    TimerConfig : 60 s</span><br><span class="line">    Auth <span class="built_in">type</span> : NONE</span><br><span class="line">    Virtual MAC : 0000-5e00-0102</span><br><span class="line">    Check TTL : YES</span><br><span class="line">    Config <span class="built_in">type</span> : vgmp-vrrp</span><br><span class="line">    Backup-forward : disabled</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure></div>
+<p>FW2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">HRP_M&lt;FW2&gt;dis vrrp</span><br><span class="line">...</span><br><span class="line">GigabitEthernet1/0/6 | Virtual Router 2</span><br><span class="line">    State : Master <span class="comment">#FW2接替FW1成为主根</span></span><br><span class="line">    Virtual IP : 118.122.120.254</span><br><span class="line">    Master IP : 118.122.120.84</span><br><span class="line">    PriorityRun : 120</span><br><span class="line">    PriorityConfig : 100</span><br><span class="line">    MasterPriority : 120</span><br><span class="line">    Preempt : YES   Delay Time : 0 s</span><br><span class="line">    TimerRun : 60 s</span><br><span class="line">    TimerConfig : 60 s</span><br><span class="line">    Auth <span class="built_in">type</span> : NONE</span><br><span class="line">    Virtual MAC : 0000-5e00-0102</span><br><span class="line">    Check TTL : YES</span><br><span class="line">    Config <span class="built_in">type</span> : vgmp-vrrp</span><br><span class="line">    Backup-forward : disabled</span><br><span class="line">...</span><br></pre></td></tr></table></figure></div>
+<h2 id="恢复端口，查看主动抢占是否正常"><a href="#恢复端口，查看主动抢占是否正常" class="headerlink" title="恢复端口，查看主动抢占是否正常"></a>恢复端口，查看主动抢占是否正常</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">HRP_S[FW1]int g1/0/6</span><br><span class="line">HRP_S[FW1-GigabitEthernet1/0/6]un shutdown</span><br></pre></td></tr></table></figure></div>
+<p>稍等一会后，FW1变成主根</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">GigabitEthernet1/0/6 | Virtual Router 2</span><br><span class="line">  State : Master <span class="comment">#重新变成主根</span></span><br><span class="line">  Virtual IP : 118.122.120.254</span><br><span class="line">  Master IP : 118.122.120.83</span><br><span class="line">  PriorityRun : 120</span><br><span class="line">  PriorityConfig : 100</span><br><span class="line">  MasterPriority : 120</span><br><span class="line">  Preempt : YES   Delay Time : 0 s</span><br><span class="line">  TimerRun : 60 s</span><br><span class="line">  TimerConfig : 60 s</span><br><span class="line">  Auth <span class="built_in">type</span> : NONE</span><br><span class="line">  Virtual MAC : 0000-5e00-0102</span><br><span class="line">  Check TTL : YES</span><br><span class="line">  Config <span class="built_in">type</span> : vgmp-vrrp</span><br><span class="line">  Backup-forward : disabled</span><br></pre></td></tr></table></figure></div>
+<p>FW1主动抢占正常。</p>
+]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>华为防火墙</tag>
+        <tag>网络安全</tag>
+        <tag>双机热备</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>华为防火墙配置NAT转换</title>
+    <url>/2024/09/28/%E5%8D%8E%E4%B8%BA%E9%98%B2%E7%81%AB%E5%A2%99%E9%85%8D%E7%BD%AENAT%E8%BD%AC%E6%8D%A2/</url>
+    <content><![CDATA[<h1 id="华为防火墙配置NAT地址转换"><a href="#华为防火墙配置NAT地址转换" class="headerlink" title="华为防火墙配置NAT地址转换"></a>华为防火墙配置NAT地址转换</h1>
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>本实验使用ensp仿真模拟器配置</p>
+
+  </div>
+
+<h2 id="实验目的"><a href="#实验目的" class="headerlink" title="实验目的"></a>实验目的</h2><p>配置HFW1防火墙各种地址NAT地址转换</p>
+<h2 id="实验设备"><a href="#实验设备" class="headerlink" title="实验设备"></a>实验设备</h2><p>华为USG6000v一台（简称FW1）</p>
+<h2 id="实验拓扑"><a href="#实验拓扑" class="headerlink" title="实验拓扑"></a>实验拓扑</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/%E5%8D%8E%E4%B8%BA%E9%98%B2%E7%81%AB%E5%A2%99NAT%E9%85%8D%E7%BD%AE%E6%8B%93%E6%89%91.png"
+                      alt="实验拓扑" title="华为防火墙NAT配置拓扑"
+                ></p>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><ol>
+<li>改名，改密码，关闭信息中心。<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;USG6000V1&gt;sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[USG6000V1]sy FW1</span><br><span class="line">[FW1]un <span class="keyword">in</span> en</span><br><span class="line">Info: Saving <span class="built_in">log</span> files...</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[FW1]</span><br></pre></td></tr></table></figure></div></li>
+<li>配置IP地址<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]int g1/0/6</span><br><span class="line">[FW1-GigabitEthernet1/0/6]ip add 118.122.120.83 24</span><br><span class="line">[FW1-GigabitEthernet1/0/6]q</span><br><span class="line">[FW1]int g0/0/0.1</span><br><span class="line">[FW1-GigabitEthernet0/0/0.1]ip add 10.1.1.1 24</span><br><span class="line">[FW1-GigabitEthernet0/0/0.1]vlan-type dot1q 10 <span class="comment">#封装vlanid</span></span><br><span class="line">[FW1-GigabitEthernet0/0/0.1]service-manage ping permit</span><br><span class="line">[FW1-GigabitEthernet0/0/0.1]q</span><br><span class="line">[FW1-GigabitEthernet0/0/0.2]ip add 10.1.2.1 24</span><br><span class="line">[FW1-GigabitEthernet0/0/0.2]vlan-type dot1q 20 <span class="comment">#封装vlanid</span></span><br><span class="line">[FW1-GigabitEthernet0/0/0.2]service-manage ping permit</span><br><span class="line">[FW1-GigabitEthernet0/0/0.2]q</span><br><span class="line">[FW1]</span><br></pre></td></tr></table></figure></div></li>
+<li>配置安全区域<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]firewall zone untrust</span><br><span class="line">[FW1-zone-untrust]add int g1/0/6</span><br><span class="line">...</span><br><span class="line">[FW1]firewall zone trust </span><br><span class="line">[FW1-zone-trust]add int g0/0/0.1</span><br><span class="line">[FW1-zone-trust]add int g0/0/0.2</span><br><span class="line">...</span><br><span class="line"><span class="comment">#</span></span><br><span class="line">trust</span><br><span class="line"> priority is 85</span><br><span class="line"> interface of the zone is (3):</span><br><span class="line">    GigabitEthernet0/0/0</span><br><span class="line">    GigabitEthernet0/0/0.1</span><br><span class="line">    GigabitEthernet0/0/0.2</span><br><span class="line"><span class="comment">#</span></span><br><span class="line">untrust</span><br><span class="line"> priority is 5</span><br><span class="line"> interface of the zone is (1):</span><br><span class="line">    GigabitEthernet1/0/6</span><br><span class="line"><span class="comment">#</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div></li>
+<li>配置安全策略<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]security-policy </span><br><span class="line">[FW1-policy-security]rule name to_untrust</span><br><span class="line">[FW1-policy-security-rule-to_untrust]source-zone trust </span><br><span class="line">[FW1-policy-security-rule-to_untrust]destination-zone untrust </span><br><span class="line">[FW1-policy-security-rule-to_untrust]source-zone <span class="built_in">local</span> </span><br><span class="line">[FW1-policy-security-rule-to_untrust]action permit </span><br><span class="line">...</span><br><span class="line"><span class="comment">#</span></span><br><span class="line">security-policy</span><br><span class="line"> rule name to_untrust</span><br><span class="line">  source-zone <span class="built_in">local</span></span><br><span class="line">  source-zone trust</span><br><span class="line">  destination-zone untrust</span><br><span class="line">  action permit</span><br><span class="line"><span class="comment">#</span></span><br></pre></td></tr></table></figure></div></li>
+<li>配置交换机vlan<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">vlan batch 10 20</span><br><span class="line"><span class="comment">#</span></span><br><span class="line">interface Ethernet0/0/14</span><br><span class="line"> port link-type access</span><br><span class="line"> port default vlan 10</span><br><span class="line"><span class="comment">#</span></span><br><span class="line">interface Ethernet0/0/15</span><br><span class="line"> port link-type access</span><br><span class="line"> port default vlan 20</span><br><span class="line"><span class="comment">#</span></span><br><span class="line">interface Ethernet0/0/1</span><br><span class="line"> port link-type trunk</span><br><span class="line"> port trunk allow-pass vlan 2 to 4094</span><br><span class="line"><span class="comment">#</span></span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h2 id="Easy-ip转换"><a href="#Easy-ip转换" class="headerlink" title="Easy-ip转换"></a>Easy-ip转换</h2><p>Easy ip——允许将多个内部地址映射到网关出接口地址上的不同端口<br>配置nat策略：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]nat-policy </span><br><span class="line">[FW1-policy-nat]rule name easy_ip</span><br><span class="line">[FW1-policy-nat-rule-easy_ip]source-zone trust </span><br><span class="line">[FW1-policy-nat-rule-easy_ip]destination-zone untrust </span><br><span class="line">[FW1-policy-nat-rule-easy_ip]action source-nat easy-ip </span><br><span class="line">[FW1-policy-nat-rule-easy_ip]dis this</span><br><span class="line">...</span><br><span class="line"> rule name easy_ip</span><br><span class="line">  source-zone trust</span><br><span class="line">  destination-zone untrust</span><br><span class="line">  action source-nat easy-ip</span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="built_in">return</span></span><br></pre></td></tr></table></figure></div>
+<h3 id="测试结果"><a href="#测试结果" class="headerlink" title="测试结果"></a>测试结果</h3><p>PC1(vlan10 IP地址:10.1.1.10) ping server1(118.122.120.100)</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">PC&gt;ping 118.122.120.100</span><br><span class="line"></span><br><span class="line">Ping 118.122.120.100: 32 data bytes, Press Ctrl_C to <span class="built_in">break</span></span><br><span class="line">From 118.122.120.100: bytes=32 <span class="built_in">seq</span>=1 ttl=254 time=32 ms</span><br><span class="line">From 118.122.120.100: bytes=32 <span class="built_in">seq</span>=2 ttl=254 time=16 ms</span><br><span class="line">From 118.122.120.100: bytes=32 <span class="built_in">seq</span>=3 ttl=254 time=47 ms</span><br><span class="line">From 118.122.120.100: bytes=32 <span class="built_in">seq</span>=4 ttl=254 time=47 ms</span><br><span class="line">From 118.122.120.100: bytes=32 <span class="built_in">seq</span>=5 ttl=254 time=31 ms</span><br><span class="line"></span><br><span class="line">--- 118.122.120.100 ping statistics ---</span><br><span class="line">  5 packet(s) transmitted</span><br><span class="line">  5 packet(s) received</span><br><span class="line">  0.00% packet loss</span><br><span class="line">  round-trip min/avg/max = 16/34/47 ms</span><br></pre></td></tr></table></figure></div>
+<p>将trust地址转换为防火墙出口地址，端口不同</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]dis firewall session table </span><br><span class="line"> Current Total Sessions : 5</span><br><span class="line"> icmp  VPN: public --&gt; public  10.1.1.10:57291[118.122.120.83:2049] --&gt; 118.122.120.100:2048</span><br><span class="line"> icmp  VPN: public --&gt; public  10.1.1.10:57803[118.122.120.83:2051] --&gt; 118.122.120.100:2048</span><br><span class="line"> icmp  VPN: public --&gt; public  10.1.1.10:57547[118.122.120.83:2050] --&gt; 118.122.120.100:2048</span><br><span class="line"> icmp  VPN: public --&gt; public  10.1.1.10:58059[118.122.120.83:2052] --&gt; 118.122.120.100:2048</span><br><span class="line"> icmp  VPN: public --&gt; public  10.1.1.10:57035[118.122.120.83:2048] --&gt; 118.122.120.100:2048</span><br><span class="line">[FW1]</span><br></pre></td></tr></table></figure></div>
+
+<p>PC2(vlan20 IP地址:10.1.2.10) ping server1(118.122.120.100)<br>查看会话表：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">Current Total Sessions : 5</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.2.10:30924[118.122.120.83:2054] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.2.10:31692[118.122.120.83:2057] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.2.10:31436[118.122.120.83:2056] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.2.10:31180[118.122.120.83:2055] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.2.10:30668[118.122.120.83:2053] --&gt; 118.122.120.100:2048</span><br></pre></td></tr></table></figure></div>
+<p>IP转换为路由器的<code>出口IP</code>(118.122.120.83)</p>
+<h2 id="NAPT地址转换"><a href="#NAPT地址转换" class="headerlink" title="NAPT地址转换"></a>NAPT地址转换</h2><p>NAPT: Network Address Port Transfer 网络地址端口转换。也叫PAT。<br>使用一个合法公网地址，以不同的协议端口号与不同的内部地址相对应，也就是<br><code>&lt;内部地址+内部端口&gt;</code>与<code>&lt;外部地址+外部端口&gt;</code>之间的转换  </p>
+<ol>
+<li>配置NAT地址池：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]nat address-group napt_ip</span><br><span class="line">[FW1-address-group-napt_ip]section 118.122.120.115 118.122.120.116</span><br><span class="line">[FW1-address-group-napt_ip]mode pat</span><br><span class="line">[FW1-address-group-napt_ip]dis this</span><br><span class="line">...</span><br><span class="line">nat address-group napt_ip 0 <span class="comment">#地址池id</span></span><br><span class="line"> mode pat <span class="comment">#pat模式</span></span><br><span class="line"> section 0 118.122.120.115 118.122.120.116 <span class="comment">#地址池范围112.122.120.115~116</span></span><br><span class="line"><span class="comment">#</span></span><br></pre></td></tr></table></figure></div>
+2.配置nat策略<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]nat-policy</span><br><span class="line">[FW1-policy-nat]rule name napt</span><br><span class="line">[FW1-policy-nat-rule-napt]destination-zone untrust </span><br><span class="line">[FW1-policy-nat-rule-napt]source-zone trust </span><br><span class="line">[FW1-policy-nat-rule-napt]action source-nat address-group napt_ip</span><br><span class="line">[FW1-policy-nat-rule-napt]dis this</span><br><span class="line">···</span><br><span class="line"> rule name napt</span><br><span class="line">  source-zone trust</span><br><span class="line">  destination-zone untrust</span><br><span class="line">  action source-nat address-group napt_ip</span><br><span class="line"><span class="comment">#</span></span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h3 id="测试结果-1"><a href="#测试结果-1" class="headerlink" title="测试结果"></a>测试结果</h3><p>PC1(vlan10 IP地址:10.1.1.10) ping server1(118.122.120.100)</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">PC&gt;ping 118.122.120.100</span><br><span class="line"></span><br><span class="line">Ping 118.122.120.100: 32 data bytes, Press Ctrl_C to <span class="built_in">break</span></span><br><span class="line">From 118.122.120.100: bytes=32 <span class="built_in">seq</span>=1 ttl=254 time=31 ms</span><br><span class="line">From 118.122.120.100: bytes=32 <span class="built_in">seq</span>=2 ttl=254 time=47 ms</span><br><span class="line">From 118.122.120.100: bytes=32 <span class="built_in">seq</span>=3 ttl=254 time=32 ms</span><br><span class="line">From 118.122.120.100: bytes=32 <span class="built_in">seq</span>=4 ttl=254 time=31 ms</span><br><span class="line">From 118.122.120.100: bytes=32 <span class="built_in">seq</span>=5 ttl=254 time=31 ms</span><br><span class="line"></span><br><span class="line">--- 118.122.120.100 ping statistics ---</span><br><span class="line">  5 packet(s) transmitted</span><br><span class="line">  5 packet(s) received</span><br><span class="line">  0.00% packet loss</span><br><span class="line">  round-trip min/avg/max = 31/34/47 ms</span><br></pre></td></tr></table></figure></div>
+<p>转换为地址池指定的IP地址：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">Current Total Sessions : 5</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.1.10:34512[118.122.120.115:2052] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.1.10:34256[118.122.120.115:2051] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.1.10:34000[118.122.120.115:2050] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.1.10:33744[118.122.120.115:2049] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.1.10:33232[118.122.120.115:2048] --&gt; 118.122.120.100:2048</span><br></pre></td></tr></table></figure></div>
+<p>pc2省略</p>
+<h2 id="NO-PAT地址转换"><a href="#NO-PAT地址转换" class="headerlink" title="NO-PAT地址转换"></a>NO-PAT地址转换</h2><p>NAT No-PAT是一种NAT转换时只转换地址，不转换端口，实现私网地址到公网地址一对一的地址转换方式。<br>1.配置NAT地址池</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]nat address-group no_pat_ip</span><br><span class="line">[FW1-address-group-napt_ip]section 118.122.120.117 118.122.120.118</span><br><span class="line">[FW1-address-group-napt_ip]mode no-pat global</span><br><span class="line">[FW1-address-group-no_pat_ip]mode no-pat ?</span><br><span class="line">  global  Indicate no-pat pattern of global mode</span><br><span class="line">  <span class="comment">#生成的server-map表项中不包含安全区域的参数，所有的安全区域都可以通过该server-map表项访问内部终端</span></span><br><span class="line">  <span class="built_in">local</span>   Indicate no-pat pattern of <span class="built_in">local</span> mode</span><br><span class="line">  <span class="comment">#生成的server-map表项中包含安全区域的参数，只有次安全区域可以通过该server-map表项访问内部终端</span></span><br><span class="line">[FW1-address-group-napt_ip]dis this</span><br><span class="line">...</span><br><span class="line">nat address-group napt_ip 0 <span class="comment">#地址池id</span></span><br><span class="line"> mode no-pat global <span class="comment">#no-pat模式</span></span><br><span class="line"> section 0 118.122.120.117 118.122.120.118 <span class="comment">#地址池范围112.122.120.117~118</span></span><br><span class="line"><span class="comment">#</span></span><br></pre></td></tr></table></figure></div>
+<p>2.配置nat策略</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[FW1]nat-p</span><br><span class="line">[FW1-policy-nat]rule name no_pat</span><br><span class="line">[FW1-policy-nat-rule-no_pat]source-zone trust</span><br><span class="line">[FW1-policy-nat-rule-no_pat]destination-zone untrust </span><br><span class="line">[FW1-policy-nat-rule-no_pat]action source-nat address-group no_pat_ip</span><br></pre></td></tr></table></figure></div>
+<blockquote>
+<p>Info: The current source conversion address pool type is no-pat, and if some businesses of the same user do not need to do NAT, please create a new rule with NAT type No-nat, otherwise the user’s business will be NAT.  </p>
+</blockquote>
+<blockquote>
+<p>提示：当前源转换地址池类型为 no-pat，如果同一用户的某些业务不需要做 NAT，请新建 NAT 类型为 No-nat 的规则，否则该用户的业务将为 NAT。</p>
+</blockquote>
+<h3 id="测试结果-2"><a href="#测试结果-2" class="headerlink" title="测试结果"></a>测试结果</h3><p>PC1(vlan10 IP地址:10.1.1.10) ping server1(118.122.120.100)<br>会话表：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">Current Total Sessions : 5</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.1.10:61395[118.122.120.117:61395] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.1.10:61651[118.122.120.117:61651] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.1.10:60371[118.122.120.117:60371] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.1.10:60627[118.122.120.117:60627] --&gt; 118.122.120.100:2048</span><br><span class="line">icmp  VPN: public --&gt; public  10.1.1.10:60883[118.122.120.117:60883] --&gt; 118.122.120.100:2048</span><br></pre></td></tr></table></figure></div>
+<p>结果：只转换ip地址,不转换端口。</p>
+]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>华为防火墙</tag>
+        <tag>网络安全</tag>
+        <tag>NAT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>OSPFv3协议的配置</title>
+    <url>/2024/09/29/OSPFv3%E5%8D%8F%E8%AE%AE%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>本实验使用ensp仿真模拟器配置</p>
+
+  </div>
+<h2 id="OSPFv3协议"><a href="#OSPFv3协议" class="headerlink" title="OSPFv3协议"></a>OSPFv3协议</h2><p>OSPFv3相对于OSPFv2，基本原理相同但是是一个独立的路由协议。<br>OSPFv3是基于IPv6的OSPF协议，因此，IPv6的特定对OSPFv3造成了一定的影响。具体如下表所示：  </p>
+<table>
+<thead>
+<tr>
+<th>IPv6特性</th>
+<th>OSPFv3相应的影响</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>IPv6地址为128位</td>
+<td>LSA长度增加</td>
+</tr>
+<tr>
+<td>IPv6中存在LLA地址</td>
+<td>除了建立Vlink之外，OSPFv3使用LLA地址进行报文交互</td>
+</tr>
+<tr>
+<td>接口可以配置多个全球单播地址</td>
+<td>运行于每个LLA进行通信，不再基于subnet</td>
+</tr>
+<tr>
+<td>IPv6支持验证功能</td>
+<td>使用IPv6扩展头进行报文的认证和加密</td>
+</tr>
+</tbody></table>
+<p>参考自：<a class="button  regular" href='https://blog.csdn.net/weixin_40228200/article/details/118970940' title='CSDN'><i class='fa-solid'></i> CSDN</a></p>
+<h2 id="实验目的"><a href="#实验目的" class="headerlink" title="实验目的"></a>实验目的</h2><p>配置AR1，AR2使用ospfv3协议互通</p>
+<h2 id="实验设备"><a href="#实验设备" class="headerlink" title="实验设备"></a>实验设备</h2><p>华为AR2240两台，PC模拟终端4台</p>
+<h2 id="实验拓扑"><a href="#实验拓扑" class="headerlink" title="实验拓扑"></a>实验拓扑</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/OSPFv3%E5%8D%8F%E8%AE%AE%E9%85%8D%E7%BD%AE%E6%8B%93%E6%89%91.png"
+                      alt="实验拓扑" title="OSPFv3协议配置拓扑"
+                ></p>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><ol>
+<li>改名，改密码，关闭信息中心。<br>AR1:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;Huawei&gt;sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[Huawei]sy R1</span><br><span class="line">[R1]un <span class="keyword">in</span> en</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[R1]</span><br></pre></td></tr></table></figure></div>
+AR2:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;Huawei&gt;sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[Huawei]sy R2</span><br><span class="line">[R2]un <span class="keyword">in</span> en</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[R2]</span><br></pre></td></tr></table></figure></div></li>
+<li>配置IP地址</li>
+</ol>
+<p>开启ipv6:<br>R1:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]ipv6</span><br></pre></td></tr></table></figure></div>
+<p>R2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]ipv6</span><br></pre></td></tr></table></figure></div>
+
+<p>配置IP地址：<br>R1</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]int g0/0/1</span><br><span class="line">[R1-GigabitEthernet0/0/1]ipv6 <span class="built_in">enable</span> </span><br><span class="line">[R1-GigabitEthernet0/0/1]ipv6 add 2001::254 64</span><br><span class="line">[R1]int g0/0/2</span><br><span class="line">[R1-GigabitEthernet0/0/2]ipv6 <span class="built_in">enable</span> </span><br><span class="line">[R1-GigabitEthernet0/0/2]ipv6 add 2002::254 64</span><br><span class="line">[R1]int g0/0/0</span><br><span class="line">[R1-GigabitEthernet0/0/0]ipv6 <span class="built_in">enable</span></span><br><span class="line">[R1-GigabitEthernet0/0/0]ipv6 add 2005::1 64</span><br></pre></td></tr></table></figure></div>
+<p>R2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]int g0/0/1</span><br><span class="line">[R2-GigabitEthernet0/0/1]ipv6 <span class="built_in">enable</span></span><br><span class="line">[R2-GigabitEthernet0/0/1]ipv6 add 2003::254 64</span><br><span class="line">[R2]int g0/0/2</span><br><span class="line">[R2-GigabitEthernet0/0/2]ipv6 <span class="built_in">enable</span></span><br><span class="line">[R2-GigabitEthernet0/0/2]ipv6 add 2004::254 64</span><br><span class="line">[R2]int g0/0/0</span><br><span class="line">[R2-GigabitEthernet0/0/0]ipv6 <span class="built_in">enable</span></span><br><span class="line">[R2-GigabitEthernet0/0/0]ipv6 add 2005::2 64</span><br></pre></td></tr></table></figure></div>
+<h2 id="OSPF配置"><a href="#OSPF配置" class="headerlink" title="OSPF配置"></a>OSPF配置</h2><p>R1配置路由ID为1.1.1.1，R1配置路由ID为2.2.2.2<br>R1：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]ospfv3 1</span><br><span class="line">[R1-ospfv3-1]router-id 1.1.1.1</span><br><span class="line">[R1]int g0/0/1</span><br><span class="line">[R1-GigabitEthernet0/0/1]ospfv3 1 area 0</span><br><span class="line">[R1]int g0/0/2</span><br><span class="line">[R1-GigabitEthernet0/0/2]ospfv3 1 area 0</span><br><span class="line">[R1]int g0/0/0</span><br><span class="line">[R1-GigabitEthernet0/0/0]ospfv3 1 area 0</span><br></pre></td></tr></table></figure></div>
+<p>R2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]ospfv3 1</span><br><span class="line">[R2-ospfv3-1]router-id 2.2.2.2</span><br><span class="line">[R2]int g0/0/1</span><br><span class="line">[R2-GigabitEthernet0/0/1]ospfv3 1 area 0</span><br><span class="line">[R2]int g0/0/2</span><br><span class="line">[R2-GigabitEthernet0/0/2]ospfv3 1 area 0</span><br><span class="line">[R2]int g0/0/0</span><br><span class="line">[R2-GigabitEthernet0/0/0]ospfv3 1 area 0</span><br></pre></td></tr></table></figure></div>
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>查看R1的ipv4地址表：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]dis ipv6 routing-table </span><br><span class="line">Routing Table : Public</span><br><span class="line">	Destinations : 10	Routes : 10</span><br><span class="line">......</span><br><span class="line"> Destination  : 2003::                          PrefixLength : 64</span><br><span class="line"> NextHop      : FE80::2E0:FCFF:FE57:5887        Preference   : 10</span><br><span class="line"> Cost         : 2                               Protocol     : OSPFv3</span><br><span class="line"> RelayNextHop : ::                              TunnelID     : 0x0</span><br><span class="line"> Interface    : GigabitEthernet0/0/0            Flags        : D</span><br><span class="line"></span><br><span class="line"> Destination  : 2004::                          PrefixLength : 64</span><br><span class="line"> NextHop      : FE80::2E0:FCFF:FE57:5887        Preference   : 10</span><br><span class="line"> Cost         : 2                               Protocol     : OSPFv3</span><br><span class="line"> RelayNextHop : ::                              TunnelID     : 0x0</span><br><span class="line"> Interface    : GigabitEthernet0/0/0            Flags        : D</span><br><span class="line"> ......</span><br></pre></td></tr></table></figure></div>
+<p>查看ospfv3邻居关系：<br>R1:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]dis ospfv3 peer</span><br><span class="line">OSPFv3 Process (1)</span><br><span class="line">OSPFv3 Area (0.0.0.0)</span><br><span class="line">Neighbor ID     Pri  State            Dead Time Interface            Instance ID</span><br><span class="line">2.2.2.2           1  Full/Backup      00:00:33  GE0/0/0                        0</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+<p>R2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]dis ospfv3 peer</span><br><span class="line">OSPFv3 Process (1)</span><br><span class="line">OSPFv3 Area (0.0.0.0)</span><br><span class="line">Neighbor ID     Pri  State            Dead Time Interface            Instance ID</span><br><span class="line">1.1.1.1           1  Full/DR          00:00:37  GE0/0/0                        0</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+<p>R1与R2有邻居关系，全网互通。</p>
+]]></content>
+      <categories>
+        <category>高级路由交换</category>
+      </categories>
+      <tags>
+        <tag>高级路由交换</tag>
+        <tag>OSP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IS-IS协议的基础配置</title>
+    <url>/2024/09/30/IS-IS%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="IS-IS协议基本功能配置实例"><a href="#IS-IS协议基本功能配置实例" class="headerlink" title="IS-IS协议基本功能配置实例"></a>IS-IS协议基本功能配置实例</h2><p>与OSPF协议非常的相似，IS-IS协议也是基于链路状态并使用最短路径优先算法进行路由的一种 IGP 协议。</p>
+<p>IS-IS（Intermediate System-to-Intermediate System，中间系统到中间系统）路由协议最初是ISO（the International Organization for Standardization，国际标准化组织）为CLNP（Connection Less Network Protocol，无连接网络协议）设计的一种动态路由协议。<br>现在CLNP网络已经基本不再使用，但是IS-IS协议由于其优秀性，被保留了下来。</p>
+<h2 id="实验目的"><a href="#实验目的" class="headerlink" title="实验目的"></a>实验目的</h2><p>路由器之间通过IS-IS协议互联。</p>
+<h2 id="实验设备"><a href="#实验设备" class="headerlink" title="实验设备"></a>实验设备</h2><p>华为AR2220(三台)</p>
+<h2 id="实验拓扑"><a href="#实验拓扑" class="headerlink" title="实验拓扑"></a>实验拓扑</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/IS-IS%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE%E6%8B%93%E6%89%91.png"
+                      alt="实验拓扑" title="IS-IS"
+                ></p>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><ol>
+<li>改名，改密码，关闭信息中心。</li>
+</ol>
+<p>AR1：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;Huawei&gt;sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[Huawei]sy R1</span><br><span class="line">[R1]un <span class="keyword">in</span> en</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[R1]</span><br></pre></td></tr></table></figure></div>
+<p>AR2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;Huawei&gt;sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[Huawei]sy R2</span><br><span class="line">[R2]un <span class="keyword">in</span> en</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[R2]</span><br></pre></td></tr></table></figure></div>
+<p>以下都一样，就不概述了。   </p>
+<ol start="2">
+<li>配置IP地址<br>AR1:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]int g0/0/0</span><br><span class="line">[R1-GigabitEthernet0/0/0]ip add 192.168.1.1 24</span><br></pre></td></tr></table></figure></div>
+AR2:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]int g0/0/0</span><br><span class="line">[R2-GigabitEthernet0/0/0]ip add 192.168.2.1 24</span><br></pre></td></tr></table></figure></div>
+AR3:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R3]int g0/0/0</span><br><span class="line">[R3-GigabitEthernet0/0/0]ip add 192.168.1.2 24</span><br><span class="line">[R3-GigabitEthernet0/0/0]q</span><br><span class="line">[R3]int g0/0/1</span><br><span class="line">[R3-GigabitEthernet0/0/1]ip add 192.168.2.2 24</span><br><span class="line">[R3-GigabitEthernet0/0/1]q</span><br><span class="line">[R3]int g0/0/2</span><br><span class="line">[R3-GigabitEthernet0/0/2]ip add 192.168.3.2 24</span><br><span class="line">[R3-GigabitEthernet0/0/2]q</span><br><span class="line">[R3]</span><br></pre></td></tr></table></figure></div>
+AR4:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R4]int g0/0/2</span><br><span class="line">[R4-GigabitEthernet0/0/2]ip add 192.168.3.1 24</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h2 id="配置IS-IS协议"><a href="#配置IS-IS协议" class="headerlink" title="配置IS-IS协议"></a>配置IS-IS协议</h2><p>AR1：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]isis 1</span><br><span class="line">[R1-isis-1]is-level level-1	</span><br><span class="line">[R1-isis-1]network-entity 10.0000.0000.0001.00</span><br><span class="line">[R1-isis-1]quit</span><br><span class="line">[R1]int g0/0/0</span><br><span class="line">[R1-GigabitEthernet0/0/0]isis <span class="built_in">enable</span></span><br><span class="line">[R1-GigabitEthernet0/0/0]quit</span><br><span class="line">[R1]</span><br></pre></td></tr></table></figure></div>
+<p>AR2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]isis 1</span><br><span class="line">[R2-isis-1]is-level level-1</span><br><span class="line">[R2-isis-1]network-entity 10.0000.0000.0002.00</span><br><span class="line">[R2-isis-1]quit</span><br><span class="line">[R2]int g0/0/0</span><br><span class="line">[R2-GigabitEthernet0/0/0]isis <span class="built_in">enable</span></span><br><span class="line">[R2-GigabitEthernet0/0/0]quit</span><br></pre></td></tr></table></figure></div>
+<p>AR3:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R3]isis 1</span><br><span class="line">[R3-isis-1]is-level level-1-2</span><br><span class="line">[R3-isis-1]network-entity 10.0000.0000.0003.00</span><br><span class="line">[R3-isis-1]quit</span><br><span class="line">[R3]int g0/0/0</span><br><span class="line">[R3-GigabitEthernet0/0/0]isis <span class="built_in">enable</span></span><br><span class="line">[R3-GigabitEthernet0/0/0]quit</span><br><span class="line">[R3]int g0/0/1</span><br><span class="line">[R3-GigabitEthernet0/0/1]isis <span class="built_in">enable</span></span><br><span class="line">[R3-GigabitEthernet0/0/1]quit</span><br><span class="line">[R3]int g0/0/2</span><br><span class="line">[R3-GigabitEthernet0/0/2]isis <span class="built_in">enable</span></span><br><span class="line">[R3-GigabitEthernet0/0/2]quit</span><br><span class="line">[R3]</span><br></pre></td></tr></table></figure></div>
+<p>AR4：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R4]isis 1</span><br><span class="line">[R4-isis-1]is-level level-2</span><br><span class="line">[R4-isis-1]network 20.0000.0000.0004.00</span><br><span class="line">[R4-isis-1]quit</span><br><span class="line">[R4]int g0/0/2</span><br><span class="line">[R4-GigabitEthernet0/0/2]isis <span class="built_in">enable</span></span><br><span class="line">[R4-GigabitEthernet0/0/2]quit</span><br><span class="line">[R4]</span><br></pre></td></tr></table></figure></div>
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>查看AR3的配置结果</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R3]dis isis lsdb</span><br><span class="line"></span><br><span class="line">                        Database information <span class="keyword">for</span> ISIS(1)</span><br><span class="line">                        --------------------------------</span><br><span class="line"></span><br><span class="line">                          Level-1 Link State Database</span><br><span class="line"></span><br><span class="line">LSPID                 Seq Num      Checksum      Holdtime      Length  ATT/P/OL</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">0000.0000.0001.00-00  0x00000003   0x93f1        965           68      0/0/0   </span><br><span class="line">0000.0000.0001.01-00  0x00000001   0xd1ba        964           55      0/0/0   </span><br><span class="line">0000.0000.0002.00-00  0x00000003   0xe0a0        980           68      0/0/0   </span><br><span class="line">0000.0000.0002.01-00  0x00000001   0xdaaf        978           55      0/0/0   </span><br><span class="line">0000.0000.0003.00-00* 0x00000007   0xa34c        1136          111     1/0/0   </span><br><span class="line"></span><br><span class="line">Total LSP(s): 5</span><br><span class="line">    *(In TLV)-Leaking Route, *(By LSPID)-Self LSP, +-Self LSP(Extended), </span><br><span class="line">           ATT-Attached, P-Partition, OL-Overload</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">                          Level-2 Link State Database</span><br><span class="line"></span><br><span class="line">LSPID                 Seq Num      Checksum      Holdtime      Length  ATT/P/OL</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">0000.0000.0003.00-00* 0x00000007   0x444a        1136          100     0/0/0   </span><br><span class="line">0000.0000.0004.00-00  0x00000003   0xbdab        1135          68      0/0/0   </span><br><span class="line">0000.0000.0004.01-00  0x00000001   0xee95        1135          55      0/0/0   </span><br><span class="line"></span><br><span class="line">Total LSP(s): 3</span><br><span class="line">    *(In TLV)-Leaking Route, *(By LSPID)-Self LSP, +-Self LSP(Extended), </span><br><span class="line">           ATT-Attached, P-Partition, OL-Overload</span><br><span class="line"></span><br><span class="line">[R3]</span><br></pre></td></tr></table></figure></div>
+<p>AR2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;R2&gt;dis isis lsdb</span><br><span class="line"></span><br><span class="line">                        Database information <span class="keyword">for</span> ISIS(1)</span><br><span class="line">                        --------------------------------</span><br><span class="line"></span><br><span class="line">                          Level-1 Link State Database</span><br><span class="line"></span><br><span class="line">LSPID                 Seq Num      Checksum      Holdtime      Length  ATT/P/OL</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">0000.0000.0001.00-00  0x00000003   0x93f1        824           68      0/0/0   </span><br><span class="line">0000.0000.0001.01-00  0x00000001   0xd1ba        823           55      0/0/0   </span><br><span class="line">0000.0000.0002.00-00* 0x00000003   0xe0a0        841           68      0/0/0   </span><br><span class="line">0000.0000.0002.01-00* 0x00000001   0xdaaf        840           55      0/0/0   </span><br><span class="line">0000.0000.0003.00-00  0x00000007   0xa34c        995           111     1/0/0   </span><br><span class="line"></span><br><span class="line">Total LSP(s): 5</span><br><span class="line">    *(In TLV)-Leaking Route, *(By LSPID)-Self LSP, +-Self LSP(Extended), </span><br><span class="line">           ATT-Attached, P-Partition, OL-Overload</span><br></pre></td></tr></table></figure></div>
+<p>可以看到，配置结果一样。<br>AR1的路由表中应该有一条默认路由，指向L1&#x2F;2路由。<br>查看路由信息：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;R1&gt;dis isis rou</span><br><span class="line"></span><br><span class="line">                         Route information <span class="keyword">for</span> ISIS(1)</span><br><span class="line">                         -----------------------------</span><br><span class="line"></span><br><span class="line">                        ISIS(1) Level-1 Forwarding Table</span><br><span class="line">                        --------------------------------</span><br><span class="line"></span><br><span class="line">IPV4 Destination     IntCost    ExtCost ExitInterface   NextHop         Flags</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">0.0.0.0/0            10         NULL    GE0/0/0         192.168.1.2     A/-/-/-</span><br><span class="line">192.168.2.0/24       20         NULL    GE0/0/0         192.168.1.2     A/-/-/-</span><br><span class="line">192.168.1.0/24       10         NULL    GE0/0/0         Direct          D/-/L/-</span><br><span class="line">192.168.3.0/24       20         NULL    GE0/0/0         192.168.1.2     A/-/-/-</span><br><span class="line">     Flags: D-Direct, A-Added to URT, L-Advertised <span class="keyword">in</span> LSPs, S-IGP Shortcut,</span><br><span class="line">                               U-Up/Down Bit Set</span><br></pre></td></tr></table></figure></div>
+<p>至此，全网连通。</p>
+]]></content>
+      <categories>
+        <category>高级路由交换</category>
+      </categories>
+      <tags>
+        <tag>IS-IS</tag>
+        <tag>高级路由交换</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>OSPF与BFD联动特性配置</title>
+    <url>/2024/09/29/OSPF%E4%B8%8EBFD%E8%81%94%E5%8A%A8%E7%89%B9%E6%80%A7%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>本实验使用ensp仿真模拟器配置</p>
+
+  </div>
+<h2 id="OSPF与BFD联动"><a href="#OSPF与BFD联动" class="headerlink" title="OSPF与BFD联动"></a>OSPF与BFD联动</h2><p>如果需要提高链路状态变化时OSPF协议的收敛速度，可以在运行OSPF协议的链路上配置BFD特性。<br>当BFD检测到链路出现故障时，能够将故障通告给路由协议，触发路由协议的快速收敛；当邻居关系为Down时，将动态删除BFD会话。</p>
+<h2 id="实验目的"><a href="#实验目的" class="headerlink" title="实验目的"></a>实验目的</h2><p>OSPF通过周期性发送Hello报文来实现邻居检测，检测到故障的所需时间比较长，超过1s。在使用高速网络时，会丢失大量数据。<br>为了解决上述问题，配置指定进程或端口的BFD for OSPF特性，可以快速检测链路的状态，故障检测时间可达毫秒级，提高链路状态变化时的收敛速度。</p>
+<h2 id="实验设备"><a href="#实验设备" class="headerlink" title="实验设备"></a>实验设备</h2><p>华为AR2220三台</p>
+<h2 id="实验拓扑"><a href="#实验拓扑" class="headerlink" title="实验拓扑"></a>实验拓扑</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/OSPF%E4%B8%8EBFD.png"
+                      alt="实验拓扑" title="OSPF与BFD"
+                ></p>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><ol>
+<li>改名，改密码，关闭信息中心。<br>AR1:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;Huawei&gt;sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[Huawei]sy R1</span><br><span class="line">[R1]un <span class="keyword">in</span> en</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[R1]</span><br></pre></td></tr></table></figure></div>
+AR2:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;Huawei&gt;sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[Huawei]sy R2</span><br><span class="line">[R2]un <span class="keyword">in</span> en</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[R2]</span><br></pre></td></tr></table></figure></div>
+AR3：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;Huawei&gt;sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[Huawei]sy R3</span><br><span class="line">[R3]un <span class="keyword">in</span> en</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[R3]</span><br></pre></td></tr></table></figure></div>
+AR4：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;Huawei&gt;sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[Huawei]sy R4</span><br><span class="line">[R4]un <span class="keyword">in</span> en</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[R4]</span><br></pre></td></tr></table></figure></div></li>
+<li>配置IP地址<br>R1:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]int g0/0/0</span><br><span class="line">[R1-GigabitEthernet0/0/0]ip add 192.168.1.1 24</span><br><span class="line">[R1]int g0/0/1</span><br><span class="line">[R1-GigabitEthernet0/0/1]ip add 192.168.2.1 24</span><br></pre></td></tr></table></figure></div>
+R2:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]int g0/0/0</span><br><span class="line">[R2-GigabitEthernet0/0/0]ip add 192.168.1.2 24</span><br><span class="line">[R2]int g0/0/1</span><br><span class="line">[R2-GigabitEthernet0/0/1]ip add 192.168.4.1 24</span><br><span class="line">[R2]int g0/0/2</span><br><span class="line">[R2-GigabitEthernet0/0/2]ip add 192.168.3.1 24</span><br></pre></td></tr></table></figure></div>
+R3:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R3]int g0/0/1</span><br><span class="line">[R3-GigabitEthernet0/0/1]ip add 192.168.2.2 24</span><br><span class="line">[R3]int g0/0/2</span><br><span class="line">[R3-GigabitEthernet0/0/2]ip add 192.168.3.2 24</span><br></pre></td></tr></table></figure></div>
+R4:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R3]int g0/0/0</span><br><span class="line">[R3-GigabitEthernet0/0/0]ip add 192.168.4.2 24</span><br></pre></td></tr></table></figure></div>
+2.配置OSPF<br>R1:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]ospf 1 r 1.1.1.1</span><br><span class="line">[R1-ospf-1]a 0</span><br><span class="line">[R1-ospf-1-area-0.0.0.0]n 192.168.1.0 0.0.0.255</span><br><span class="line">[R1-ospf-1-area-0.0.0.0]n 192.168.2.0 0.0.0.255</span><br></pre></td></tr></table></figure></div>
+R2:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]ospf 1 r 2.2.2.2</span><br><span class="line">[R2-ospf-1]a 0</span><br><span class="line">[R2-ospf-1-area-0.0.0.0]n 192.168.1.0 0.0.0.255</span><br><span class="line">[R2-ospf-1-area-0.0.0.0]n 192.168.3.0 0.0.0.255</span><br><span class="line">[R2-ospf-1-area-0.0.0.0]n 192.168.4.0 0.0.0.255</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<p>R3:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R3]ospf 1 r 3.3.3.3</span><br><span class="line">[R3-ospf-1]a 0</span><br><span class="line">[R3-ospf-1-area-0.0.0.0]n 192.168.2.0 0.0.0.255</span><br><span class="line">[R3-ospf-1-area-0.0.0.0]n 192.168.3.0 0.0.0.255</span><br></pre></td></tr></table></figure></div>
+<p>R4:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R4]ospf 1 r 4.4.4.4</span><br><span class="line">[R4-ospf-1]a 0</span><br><span class="line">[R4-ospf-1-area-0.0.0.0]n 192.168.4.0 0.0.0.255</span><br></pre></td></tr></table></figure></div>
+<p>3.查看ospf配置<br>R1查看邻居表：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]dis ospf peer</span><br><span class="line"></span><br><span class="line">	 OSPF Process 1 with Router ID 1.1.1.1</span><br><span class="line">		 Neighbors </span><br><span class="line"></span><br><span class="line"> Area 0.0.0.0 interface 192.168.1.1(GigabitEthernet0/0/0)<span class="string">&#x27;s neighbors</span></span><br><span class="line"><span class="string"> Router ID: 2.2.2.2          Address: 192.168.1.2     </span></span><br><span class="line"><span class="string">   State: Full  Mode:Nbr is  Master  Priority: 1</span></span><br><span class="line"><span class="string">   DR: 192.168.1.1  BDR: 192.168.1.2  MTU: 0    </span></span><br><span class="line"><span class="string">   Dead timer due in 31  sec </span></span><br><span class="line"><span class="string">   Retrans timer interval: 5 </span></span><br><span class="line"><span class="string">   Neighbor is up for 00:02:15     </span></span><br><span class="line"><span class="string">   Authentication Sequence: [ 0 ] </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">		 Neighbors </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"> Area 0.0.0.0 interface 192.168.2.1(GigabitEthernet0/0/1)&#x27;</span>s neighbors</span><br><span class="line"> Router ID: 3.3.3.3          Address: 192.168.2.2     </span><br><span class="line">   State: Full  Mode:Nbr is  Master  Priority: 1</span><br><span class="line">   DR: 192.168.2.1  BDR: 192.168.2.2  MTU: 0    </span><br><span class="line">   Dead timer due <span class="keyword">in</span> 34  sec </span><br><span class="line">   Retrans timer interval: 5 </span><br><span class="line">   Neighbor is up <span class="keyword">for</span> 00:01:04     </span><br><span class="line">   Authentication Sequence: [ 0 ] </span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<p>R2查看邻居表：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]dis ospf peer</span><br><span class="line"></span><br><span class="line">	 OSPF Process 1 with Router ID 2.2.2.2</span><br><span class="line">		 Neighbors </span><br><span class="line"></span><br><span class="line"> Area 0.0.0.0 interface 192.168.1.2(GigabitEthernet0/0/0)<span class="string">&#x27;s neighbors</span></span><br><span class="line"><span class="string"> Router ID: 1.1.1.1          Address: 192.168.1.1     </span></span><br><span class="line"><span class="string">   State: Full  Mode:Nbr is  Slave  Priority: 1</span></span><br><span class="line"><span class="string">   DR: 192.168.1.1  BDR: 192.168.1.2  MTU: 0    </span></span><br><span class="line"><span class="string">   Dead timer due in 39  sec </span></span><br><span class="line"><span class="string">   Retrans timer interval: 5 </span></span><br><span class="line"><span class="string">   Neighbor is up for 00:03:24     </span></span><br><span class="line"><span class="string">   Authentication Sequence: [ 0 ] </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">		 Neighbors </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"> Area 0.0.0.0 interface 192.168.3.1(GigabitEthernet0/0/2)&#x27;</span>s neighbors</span><br><span class="line"> Router ID: 3.3.3.3          Address: 192.168.3.2     </span><br><span class="line">   State: Full  Mode:Nbr is  Master  Priority: 1</span><br><span class="line">   DR: 192.168.3.1  BDR: 192.168.3.2  MTU: 0    </span><br><span class="line">   Dead timer due <span class="keyword">in</span> 32  sec </span><br><span class="line">   Retrans timer interval: 5 </span><br><span class="line">   Neighbor is up <span class="keyword">for</span> 00:02:08     </span><br><span class="line">   Authentication Sequence: [ 0 ] </span><br><span class="line"></span><br><span class="line">		 Neighbors </span><br><span class="line"></span><br><span class="line"> Area 0.0.0.0 interface 192.168.4.1(GigabitEthernet0/0/1)<span class="string">&#x27;s neighbors</span></span><br><span class="line"><span class="string"> Router ID: 4.4.4.4          Address: 192.168.4.2     </span></span><br><span class="line"><span class="string">   State: Full  Mode:Nbr is  Master  Priority: 1</span></span><br><span class="line"><span class="string">   DR: 192.168.4.1  BDR: 192.168.4.2  MTU: 0    </span></span><br><span class="line"><span class="string">   Dead timer due in 38  sec </span></span><br><span class="line"><span class="string">   Retrans timer interval: 5 </span></span><br><span class="line"><span class="string">   Neighbor is up for 00:01:22     </span></span><br><span class="line"><span class="string">   Authentication Sequence: [ 0 ] </span></span><br><span class="line"><span class="string"></span></span><br></pre></td></tr></table></figure></div>
+<p>邻居关系成功建立。<br>R1查看ipv4路由表：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]dis ip ro</span><br><span class="line">Route Flags: R - relay, D - download to fib</span><br><span class="line">------------------------------------------------------------------------------</span><br><span class="line">Routing Tables: Public</span><br><span class="line">         Destinations : 12       Routes : 13       </span><br><span class="line"></span><br><span class="line">Destination/Mask    Proto   Pre  Cost      Flags NextHop         Interface</span><br><span class="line"></span><br><span class="line">      127.0.0.0/8   Direct  0    0           D   127.0.0.1       InLoopBack0</span><br><span class="line">      127.0.0.1/32  Direct  0    0           D   127.0.0.1       InLoopBack0</span><br><span class="line">127.255.255.255/32  Direct  0    0           D   127.0.0.1       InLoopBack0</span><br><span class="line">    192.168.1.0/24  Direct  0    0           D   192.168.1.1     GigabitEthernet0/0/0</span><br><span class="line">    192.168.1.1/32  Direct  0    0           D   127.0.0.1       GigabitEthernet0/0/0</span><br><span class="line">  192.168.1.255/32  Direct  0    0           D   127.0.0.1       GigabitEthernet0/0/0</span><br><span class="line">    192.168.2.0/24  Direct  0    0           D   192.168.2.1     GigabitEthernet0/0/1</span><br><span class="line">    192.168.2.1/32  Direct  0    0           D   127.0.0.1       GigabitEthernet0/0/1</span><br><span class="line">  192.168.2.255/32  Direct  0    0           D   127.0.0.1       GigabitEthernet0/0/1</span><br><span class="line">    192.168.3.0/24  OSPF    10   2           D   192.168.1.2     GigabitEthernet0/0/0</span><br><span class="line">                    OSPF    10   2           D   192.168.2.2     GigabitEthernet0/0/1</span><br><span class="line">    192.168.4.0/24  OSPF    10   2           D   192.168.1.2     GigabitEthernet0/0/0</span><br><span class="line">255.255.255.255/32  Direct  0    0           D   127.0.0.1       InLoopBack0</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+<p>路由表正常。</p>
+<h2 id="配置BFD"><a href="#配置BFD" class="headerlink" title="配置BFD"></a>配置BFD</h2><p>开始配置之前，先追踪一下路由，看看数据包在哪个路由器中传输。<br>R1 tracert R4</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]tracert 192.168.4.2</span><br><span class="line"></span><br><span class="line"> traceroute to  192.168.4.2(192.168.4.2), max hops: 30 ,packet length: 40,press </span><br><span class="line">CTRL_C to <span class="built_in">break</span> </span><br><span class="line"></span><br><span class="line"> 1 192.168.1.2 30 ms  10 ms  30 ms </span><br><span class="line"></span><br><span class="line"> 2 192.168.4.2 30 ms  20 ms  20 ms </span><br></pre></td></tr></table></figure></div>
+<p>可以看到，R1优先向R2发送数据包，因为这是OSPF计算出的最短路径。<br>接下来开始配置BFD。<br>R1,R2,R3,R4配置命令一样，以R1为例：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]bfd</span><br><span class="line">[R1-bfd]q</span><br><span class="line">[R1]ospf 1	</span><br><span class="line">[R1-ospf-1]bfd all-interfaces <span class="built_in">enable</span> </span><br></pre></td></tr></table></figure></div>
+<p>配置完成后，查看R1到R4的BFD会话表，以R1为例：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]dis ospf bfd session al</span><br><span class="line"></span><br><span class="line">	 OSPF Process 1 with Router ID 1.1.1.1</span><br><span class="line">  Area 0.0.0.0 interface 192.168.1.1(GigabitEthernet0/0/0)<span class="string">&#x27;&#x27;</span>s BFD Sessions</span><br><span class="line"></span><br><span class="line"> NeighborId:2.2.2.2          AreaId:0.0.0.0          Interface:GigabitEthernet0/</span><br><span class="line">0/0</span><br><span class="line"> BFDState:up                 rx    :1000             tx       :1000          </span><br><span class="line"> Multiplier:3                BFD Local Dis:8192      LocalIpAdd:192.168.1.1</span><br><span class="line"> RemoteIpAdd:192.168.1.2     Diagnostic Info:No diagnostic information</span><br><span class="line"></span><br><span class="line">  Area 0.0.0.0 interface 192.168.2.1(GigabitEthernet0/0/1)<span class="string">&#x27;&#x27;</span>s BFD Sessions</span><br><span class="line"></span><br><span class="line"> NeighborId:3.3.3.3          AreaId:0.0.0.0          Interface:GigabitEthernet0/</span><br><span class="line">0/1</span><br><span class="line"> BFDState:up                 rx    :1000             tx       :1000          </span><br><span class="line"> Multiplier:3                BFD Local Dis:8193      LocalIpAdd:192.168.2.1</span><br><span class="line"> RemoteIpAdd:192.168.2.2     Diagnostic Info:No diagnostic information</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+<p>当状态为up时，代表bfd已经启用成功了。  </p>
+<ul>
+<li>扩展：<br>配置R1的GE0&#x2F;0&#x2F;0端口的BFD特性，指定最小发送和接收的时间间隔为300ms，本地检测时间倍数为4.<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]int g0/0/0</span><br><span class="line">[R1-GigabitEthernet0/0/0]ospf bfd <span class="built_in">enable</span> </span><br><span class="line">[R1-GigabitEthernet0/0/0]ospf bfd min-rx-interval 300 min-tx-interval 300 detect</span><br><span class="line">-multiplier 4</span><br><span class="line">[R1-GigabitEthernet0/0/0]dis this</span><br><span class="line">[V200R003C00]</span><br><span class="line"><span class="comment">#</span></span><br><span class="line">interface GigabitEthernet0/0/0</span><br><span class="line"> ip address 192.168.1.1 255.255.255.0 </span><br><span class="line"> ospf bfd <span class="built_in">enable</span></span><br><span class="line"> ospf bfd min-tx-interval 300 min-rx-interval 300 detect-multiplier 4</span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="built_in">return</span></span><br><span class="line">[R1-GigabitEthernet0/0/0]</span><br></pre></td></tr></table></figure></div>
+配置R2的GE0&#x2F;0&#x2F;0端口的BFD特性，指定最小发送和接收的时间间隔为300ms，本地检测时间倍数为4.<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]int g0/0/0</span><br><span class="line">[R2-GigabitEthernet0/0/0]ospf bfd <span class="built_in">enable</span> </span><br><span class="line">[R2-GigabitEthernet0/0/0]ospf bfd min-rx-interval 300 min-tx-interval 300 detect</span><br><span class="line">-multiplier 4</span><br><span class="line">[R2-GigabitEthernet0/0/0]dis this</span><br><span class="line">[V200R003C00]</span><br><span class="line"><span class="comment">#</span></span><br><span class="line">interface GigabitEthernet0/0/0</span><br><span class="line"> ip address 192.168.1.2 255.255.255.0 </span><br><span class="line"> ospf bfd <span class="built_in">enable</span></span><br><span class="line"> ospf bfd min-tx-interval 300 min-rx-interval 300 detect-multiplier 4</span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="built_in">return</span></span><br><span class="line">[R2-GigabitEthernet0/0/0]</span><br></pre></td></tr></table></figure></div>
+配置完成后，查看R1和R2的BFD会话表，以R1为例：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]dis ospf bfd session all</span><br><span class="line"></span><br><span class="line">	 OSPF Process 1 with Router ID 1.1.1.1</span><br><span class="line">  Area 0.0.0.0 interface 192.168.1.1(GigabitEthernet0/0/0)<span class="string">&#x27;&#x27;</span>s BFD Sessions</span><br><span class="line"></span><br><span class="line"> NeighborId:2.2.2.2          AreaId:0.0.0.0          Interface:GigabitEthernet0/</span><br><span class="line">0/0</span><br><span class="line"> BFDState:up                 rx    :300              tx       :300           </span><br><span class="line"> Multiplier:4                BFD Local Dis:8192      LocalIpAdd:192.168.1.1</span><br><span class="line"> RemoteIpAdd:192.168.1.2     Diagnostic Info:No diagnostic information</span><br><span class="line"></span><br><span class="line">  Area 0.0.0.0 interface 192.168.2.1(GigabitEthernet0/0/1)<span class="string">&#x27;&#x27;</span>s BFD Sessions</span><br><span class="line"></span><br><span class="line"> NeighborId:3.3.3.3          AreaId:0.0.0.0          Interface:GigabitEthernet0/</span><br><span class="line">0/1</span><br><span class="line"> BFDState:up                 rx    :1000             tx       :1000          </span><br><span class="line"> Multiplier:3                BFD Local Dis:8193      LocalIpAdd:192.168.2.1</span><br><span class="line"> RemoteIpAdd:192.168.2.2     Diagnostic Info:No diagnostic information</span><br><span class="line"></span><br><span class="line">[R1]</span><br></pre></td></tr></table></figure></div>
+可以看到，最小发送和接收的时间间隔为300ms，本地检测时间倍数为4。</li>
+</ul>
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>故意shutdown R2的GE0&#x2F;0&#x2F;0端口，模拟线路故障并迅速R1 tracert R4.</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]tracert 192.168.4.2</span><br><span class="line"></span><br><span class="line"> traceroute to  192.168.4.2(192.168.4.2), max hops: 30 ,packet length: 40,press </span><br><span class="line">CTRL_C to <span class="built_in">break</span> </span><br><span class="line"></span><br><span class="line"> 1 192.168.2.2 30 ms  40 ms  20 ms </span><br><span class="line"></span><br><span class="line"> 2 192.168.3.1 30 ms  30 ms  20 ms </span><br><span class="line"></span><br><span class="line"> 3 192.168.4.2 50 ms  30 ms  30 ms </span><br><span class="line">[R1]</span><br></pre></td></tr></table></figure></div>
+<p>可以看到，R1将数据包发送给了备份路由器R3，ospf以很快的速度收敛。</p>
+]]></content>
+      <categories>
+        <category>高级路由交换</category>
+      </categories>
+      <tags>
+        <tag>高级路由交换</tag>
+        <tag>BFD</tag>
+        <tag>OSPF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IS-IS协议与BFD联动</title>
+    <url>/2024/10/01/IS-IS%E5%8D%8F%E8%AE%AE%E4%B8%8EBFD%E8%81%94%E5%8A%A8/</url>
+    <content><![CDATA[
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>本实验使用ensp仿真模拟器配置</p>
+
+  </div>
+<h2 id="IS-IS与BFD联动"><a href="#IS-IS与BFD联动" class="headerlink" title="IS-IS与BFD联动"></a>IS-IS与BFD联动</h2><p>如果需要提高链路状态变化时IS-IS协议的收敛速度，可以在运行OSPF协议的链路上配置BFD特性。<br>当BFD检测到链路出现故障时，能够将故障通告给路由协议，触发路由协议的快速收敛；当邻居关系为Down时，将动态删除BFD会话。</p>
+<h2 id="实验目的"><a href="#实验目的" class="headerlink" title="实验目的"></a>实验目的</h2><p>IS-IS通过周期性发送Hello报文来实现邻居检测，检测到故障的所需时间比较长，10s。在使用高速网络时，会丢失大量数据。<br>为了解决上述问题，配置指定进程或端口的BFD for IS-IS特性，可以快速检测链路的状态，故障检测时间可达毫秒级，提高链路状态变化时的收敛速度。</p>
+<h2 id="实验设备"><a href="#实验设备" class="headerlink" title="实验设备"></a>实验设备</h2><p>华为AR2220四台</p>
+<h2 id="实验拓扑"><a href="#实验拓扑" class="headerlink" title="实验拓扑"></a>实验拓扑</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/IS-IS%E4%B8%8EBFD.png"
+                      alt="实验拓扑" title="IS—IS与BFD"
+                ></p>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><blockquote>
+<p>1.改名，改密码，关闭信息中心。  </p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;Huawei&gt;sy</span><br><span class="line">Enter system view, <span class="built_in">return</span> user view with Ctrl+Z.</span><br><span class="line">[Huawei]sy R1</span><br><span class="line">[R1]un <span class="keyword">in</span> en</span><br><span class="line">Info: Information center is disabled.</span><br><span class="line">[R1]</span><br></pre></td></tr></table></figure></div>
+<p>其他也一样，不概述。  </p>
+<blockquote>
+<p>2.配置IP地址  </p>
+</blockquote>
+<p>AR1：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]int g0/0/0</span><br><span class="line">[R1-GigabitEthernet0/0/0]ip add 192.168.1.1 24</span><br><span class="line">[R1-GigabitEthernet0/0/0]int g0/0/1</span><br><span class="line">[R1-GigabitEthernet0/0/1]ip add 192.168.2.1 24</span><br></pre></td></tr></table></figure></div>
+<p>AR2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]int g0/0/0</span><br><span class="line">[R2-GigabitEthernet0/0/0]ip add 192.168.2.2 24</span><br><span class="line">[R2-GigabitEthernet0/0/0]int g0/0/2</span><br><span class="line">[R2-GigabitEthernet0/0/2]ip add 192.168.3.2 24</span><br><span class="line">[R2-GigabitEthernet0/0/2]int g0/0/1</span><br><span class="line">[R2-GigabitEthernet0/0/1]ip add 172.16.1.1 24</span><br></pre></td></tr></table></figure></div>
+<p>AR3:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R3]int g0/0/0</span><br><span class="line">[R3-GigabitEthernet0/0/0]ip add 192.168.1.2 24</span><br><span class="line">[R3-GigabitEthernet0/0/0]int g0/0/2</span><br><span class="line">[R3-GigabitEthernet0/0/2]ip add 192.168.3.1 24</span><br></pre></td></tr></table></figure></div>
+<p>AR4:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R4]int g0/0/1</span><br><span class="line">[R4-GigabitEthernet0/0/1]ip add 172.16.1.2 24</span><br></pre></td></tr></table></figure></div>
+<blockquote>
+<p>3.配置IS-IS协议  </p>
+</blockquote>
+<p>AR1:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]isis 1</span><br><span class="line">[R1-isis-1]is-level level-1-2</span><br><span class="line">[R1-isis-1]network-entity 10.0000.0000.0001.00</span><br><span class="line">[R1-isis-1]quit</span><br><span class="line">[R1]int g0/0/0</span><br><span class="line">[R1-GigabitEthernet0/0/0]isis en</span><br><span class="line">[R1-GigabitEthernet0/0/0]int g0/0/1</span><br><span class="line">[R1-GigabitEthernet0/0/1]isis en</span><br></pre></td></tr></table></figure></div>
+<p>AR2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]isis 1</span><br><span class="line">[R2-isis-1]is-level level-1-2</span><br><span class="line">[R2-isis-1]network-entity 10.0000.0000.0002.00</span><br><span class="line">[R2]int g0/0/0</span><br><span class="line">[R2-GigabitEthernet0/0/0]isis en</span><br><span class="line">[R2-GigabitEthernet0/0/0]int g0/0/1</span><br><span class="line">[R2-GigabitEthernet0/0/1]isis en</span><br><span class="line">[R2-GigabitEthernet0/0/1]int g0/0/2</span><br><span class="line">[R2-GigabitEthernet0/0/2]isis en</span><br></pre></td></tr></table></figure></div>
+<p>AR3:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R3]isis 1</span><br><span class="line">[R3-isis-1]is-level level-1-2</span><br><span class="line">[R3-isis-1]network-entity 10.0000.0000.0003.00</span><br><span class="line">[R3]int g0/0/0</span><br><span class="line">[R3-GigabitEthernet0/0/0]isis en</span><br><span class="line">[R3-GigabitEthernet0/0/0]int g0/0/2</span><br><span class="line">[R3-GigabitEthernet0/0/2]isis en</span><br></pre></td></tr></table></figure></div>
+<p>AR3:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R4]isis 1</span><br><span class="line">[R4-isis-1]is-level level-1-2</span><br><span class="line">[R4-isis-1]network-entity 10.0000.0000.0004.00</span><br><span class="line">[R4-isis-1]q</span><br><span class="line">[R4]int g0/0/1</span><br><span class="line">[R4-GigabitEthernet0/0/1]isis en</span><br></pre></td></tr></table></figure></div>
+<blockquote>
+<p>4.查看isis路由表  </p>
+</blockquote>
+<p>以R1为例：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;R1&gt;dis isis rou</span><br><span class="line"></span><br><span class="line">                         Route information <span class="keyword">for</span> ISIS(1)</span><br><span class="line">                         -----------------------------</span><br><span class="line"></span><br><span class="line">                        ISIS(1) Level-1 Forwarding Table</span><br><span class="line">                        --------------------------------</span><br><span class="line"></span><br><span class="line">IPV4 Destination     IntCost    ExtCost ExitInterface   NextHop         Flags</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">192.168.2.0/24       10         NULL    GE0/0/1         Direct          D/-/L/-</span><br><span class="line">192.168.1.0/24       10         NULL    GE0/0/0         Direct          D/-/L/-</span><br><span class="line">172.16.1.0/24        20         NULL    GE0/0/1         192.168.2.2     A/-/L/-</span><br><span class="line">192.168.3.0/24       20         NULL    GE0/0/1         192.168.2.2     A/-/L/-</span><br><span class="line">                                        GE0/0/0         192.168.1.2    </span><br><span class="line">     Flags: D-Direct, A-Added to URT, L-Advertised <span class="keyword">in</span> LSPs, S-IGP Shortcut,</span><br><span class="line">                               U-Up/Down Bit Set</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">                        ISIS(1) Level-2 Forwarding Table</span><br><span class="line">                        --------------------------------</span><br><span class="line"></span><br><span class="line">IPV4 Destination     IntCost    ExtCost ExitInterface   NextHop         Flags</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">192.168.2.0/24       10         NULL    GE0/0/1         Direct          D/-/L/-</span><br><span class="line">192.168.1.0/24       10         NULL    GE0/0/0         Direct          D/-/L/-</span><br><span class="line">172.16.1.0/24        20         NULL   </span><br><span class="line">192.168.3.0/24       20         NULL   </span><br><span class="line">     Flags: D-Direct, A-Added to URT, L-Advertised <span class="keyword">in</span> LSPs, S-IGP Shortcut,</span><br><span class="line">                               U-Up/Down Bit Set</span><br><span class="line"></span><br><span class="line">&lt;R1&gt;</span><br></pre></td></tr></table></figure></div>
+<p>全网联通。</p>
+<h2 id="配置BFD"><a href="#配置BFD" class="headerlink" title="配置BFD"></a>配置BFD</h2><p>R1到R4都一样，不概述了。以R1为例。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]bfd</span><br><span class="line">[R1-bfd]quit</span><br><span class="line">[R1]isis</span><br><span class="line">[R1-isis-1]bfd all-interfaces <span class="built_in">enable</span></span><br><span class="line">[R1-isis-1]quit</span><br></pre></td></tr></table></figure></div>
+<p>查看bfd会话表,以R2为例：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]dis isis bfd session all</span><br><span class="line"></span><br><span class="line">                      BFD session information <span class="keyword">for</span> ISIS(1)</span><br><span class="line">                      -----------------------------------</span><br><span class="line"></span><br><span class="line">Peer System ID : 0000.0000.0001        Interface : GE0/0/0     </span><br><span class="line">TX : 1000          BFD State : up      Peer IP Address : 192.168.2.1 </span><br><span class="line">RX : 1000          LocDis : 8192       Local IP Address: 192.168.2.2 </span><br><span class="line">Multiplier : 3     RemDis : 8193       Type : L1(L1L2)</span><br><span class="line">Diag : No diagnostic information</span><br><span class="line"></span><br><span class="line">Peer System ID : 0000.0000.0001        Interface : GE0/0/0     </span><br><span class="line">TX : 1000          BFD State : up      Peer IP Address : 192.168.2.1 </span><br><span class="line">RX : 1000          LocDis : 8192       Local IP Address: 192.168.2.2 </span><br><span class="line">Multiplier : 3     RemDis : 8193       Type : L2(L1L2)</span><br><span class="line">Diag : No diagnostic information</span><br><span class="line"></span><br><span class="line">Peer System ID : 0000.0000.0004        Interface : GE0/0/1     </span><br><span class="line">TX : 1000          BFD State : up      Peer IP Address : 172.16.1.2 </span><br><span class="line">RX : 1000          LocDis : 8193       Local IP Address: 172.16.1.1 </span><br><span class="line">Multiplier : 3     RemDis : 8192       Type : L1(L1L2)</span><br><span class="line">Diag : No diagnostic information</span><br><span class="line"></span><br><span class="line">Peer System ID : 0000.0000.0004        Interface : GE0/0/1     </span><br><span class="line">TX : 1000          BFD State : up      Peer IP Address : 172.16.1.2 </span><br><span class="line">RX : 1000          LocDis : 8193       Local IP Address: 172.16.1.1 </span><br><span class="line">Multiplier : 3     RemDis : 8192       Type : L2(L1L2)</span><br><span class="line">Diag : No diagnostic information</span><br><span class="line"></span><br><span class="line">Peer System ID : 0000.0000.0003        Interface : GE0/0/2     </span><br><span class="line">TX : 1000          BFD State : up      Peer IP Address : 192.168.3.1 </span><br><span class="line">RX : 1000          LocDis : 8194       Local IP Address: 192.168.3.2 </span><br><span class="line">Multiplier : 3     RemDis : 8193       Type : L1(L1L2)</span><br><span class="line">Diag : No diagnostic information</span><br><span class="line"></span><br><span class="line">Peer System ID : 0000.0000.0003        Interface : GE0/0/2     </span><br><span class="line">TX : 1000          BFD State : up      Peer IP Address : 192.168.3.1 </span><br><span class="line">RX : 1000          LocDis : 8194       Local IP Address: 192.168.3.2 </span><br><span class="line">Multiplier : 3     RemDis : 8193       Type : L2(L1L2)</span><br><span class="line">Diag : No diagnostic information</span><br><span class="line"></span><br><span class="line">Total BFD session(s): 6</span><br><span class="line">[R2]</span><br></pre></td></tr></table></figure></div>
+<p>可以看到，有6个bfd会话，代表所有路由器都已经开启了BFD.</p>
+<h3 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h3><blockquote>
+<p>配置端口的BFD特性，AR1的GE0&#x2F;0&#x2F;1，AR2的GE0&#x2F;0&#x2F;0口上配置端口BFD特性，指定最小发送和接受的时间间隔为200ms，本地检测时间倍数为4。  </p>
+</blockquote>
+<p>AR1:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]int g0/0/1	</span><br><span class="line">[R1-GigabitEthernet0/0/1]isis bfd <span class="built_in">enable</span> </span><br><span class="line">[R1-GigabitEthernet0/0/1]isis bfd min-rx-interval 200 min-tx-interval 200 detect-multiplier 4</span><br></pre></td></tr></table></figure></div>
+<p>AR2:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R2]int g0/0/0</span><br><span class="line">[R2-GigabitEthernet0/0/0]isis bfd en	</span><br><span class="line">[R2-GigabitEthernet0/0/0]isis bfd min-rx-interval 200 min-tx-interval 200 detect-multiplier 4</span><br></pre></td></tr></table></figure></div>
+<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><p>查看AR1的bfd会话表：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]dis isis bfd session all</span><br><span class="line"></span><br><span class="line">                      BFD session information <span class="keyword">for</span> ISIS(1)</span><br><span class="line">                      -----------------------------------</span><br><span class="line"></span><br><span class="line">Peer System ID : 0000.0000.0003        Interface : GE0/0/0     </span><br><span class="line">TX : 1000          BFD State : up      Peer IP Address : 192.168.1.2 </span><br><span class="line">RX : 1000          LocDis : 8192       Local IP Address: 192.168.1.1 </span><br><span class="line">Multiplier : 3     RemDis : 8192       Type : L1(L1L2)</span><br><span class="line">Diag : No diagnostic information</span><br><span class="line"></span><br><span class="line">Peer System ID : 0000.0000.0003        Interface : GE0/0/0     </span><br><span class="line">TX : 1000          BFD State : up      Peer IP Address : 192.168.1.2 </span><br><span class="line">RX : 1000          LocDis : 8192       Local IP Address: 192.168.1.1 </span><br><span class="line">Multiplier : 3     RemDis : 8192       Type : L2(L1L2)</span><br><span class="line">Diag : No diagnostic information</span><br><span class="line"></span><br><span class="line">Peer System ID : 0000.0000.0002        Interface : GE0/0/1     </span><br><span class="line">TX : 200           BFD State : up      Peer IP Address : 192.168.2.2 </span><br><span class="line">RX : 200           LocDis : 8193       Local IP Address: 192.168.2.1 </span><br><span class="line">Multiplier : 4     RemDis : 8192       Type : L1(L1L2)</span><br><span class="line">Diag : No diagnostic information</span><br><span class="line"></span><br><span class="line">Peer System ID : 0000.0000.0002        Interface : GE0/0/1     </span><br><span class="line">TX : 200           BFD State : up      Peer IP Address : 192.168.2.2 </span><br><span class="line">RX : 200           LocDis : 8193       Local IP Address: 192.168.2.1 </span><br><span class="line">Multiplier : 4     RemDis : 8192       Type : L2(L1L2)</span><br><span class="line">Diag : No diagnostic information</span><br><span class="line"></span><br><span class="line">Total BFD session(s): 4</span><br></pre></td></tr></table></figure></div>
+<p>可以看到，最小发送和接受的时间间隔为200ms，本地检测时间倍数为4。</p>
+<h2 id="测试结果"><a href="#测试结果" class="headerlink" title="测试结果"></a>测试结果</h2><p>AR1 tracert AR4:</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]tracert 172.16.1.2</span><br><span class="line"></span><br><span class="line"> traceroute to  172.16.1.2(172.16.1.2), max hops: 30 ,packet length: 40,press CT</span><br><span class="line">RL_C to <span class="built_in">break</span> </span><br><span class="line"></span><br><span class="line"> 1 192.168.2.2 30 ms  10 ms  20 ms </span><br><span class="line"></span><br><span class="line"> 2 172.16.1.2 30 ms  20 ms  30 ms </span><br><span class="line">[R1]</span><br></pre></td></tr></table></figure></div>
+<p>可以看到，是最佳路径。</p>
+<blockquote>
+<p>故意shutdown AR2的GE0&#x2F;0&#x2F;0口，模拟线路故障。并迅速AR1 tracert AR4<br>AR1 tracert R4:</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">[R1]tracert 172.16.1.2</span><br><span class="line"></span><br><span class="line"> traceroute to  172.16.1.2(172.16.1.2), max hops: 30 ,packet length: 40,press CT</span><br><span class="line">RL_C to <span class="built_in">break</span> </span><br><span class="line"></span><br><span class="line"> 1 192.168.1.2 30 ms  10 ms  20 ms </span><br><span class="line"></span><br><span class="line"> 2 192.168.3.2 20 ms  20 ms  20 ms </span><br><span class="line"></span><br><span class="line"> 3 172.16.1.2 20 ms  30 ms  40 ms </span><br><span class="line">[R1]</span><br></pre></td></tr></table></figure></div>
+<p>线路在很快的时间内收敛。BFD联动完成。</p>
+]]></content>
+      <categories>
+        <category>高级路由交换</category>
+      </categories>
+      <tags>
+        <tag>IS-IS</tag>
+        <tag>高级路由交换</tag>
+        <tag>BFD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Centos-DHCP</title>
+    <url>/2024/11/14/Centos-DHCP/</url>
+    <content><![CDATA[<h2 id="安装dhcp"><a href="#安装dhcp" class="headerlink" title="安装dhcp"></a>安装dhcp</h2><blockquote>
+<p>yum install -y dhcp</p>
+</blockquote>
+<h3 id="关闭防火墙，SELinux"><a href="#关闭防火墙，SELinux" class="headerlink" title="关闭防火墙，SELinux"></a>关闭防火墙，SELinux</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#关闭防火墙墙，selinux并开启dhcp服务</span></span><br><span class="line"><span class="comment">#临时关闭</span></span><br><span class="line">systemctl stop firewalld</span><br><span class="line">setenforce 0</span><br><span class="line"><span class="comment">#永久关闭</span></span><br><span class="line">systemctl <span class="built_in">disable</span> firewalld</span><br><span class="line"><span class="comment">#打开配置文件</span></span><br><span class="line">vim /etc/selinux/config</span><br><span class="line"><span class="comment">#将SELinux修改为disabled</span></span><br></pre></td></tr></table></figure></div>
+<h3 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h3><blockquote>
+<p>&#x2F;etc&#x2F;dhcp&#x2F;dhcpd_config  </p>
+</blockquote>
+<h3 id="复制参考文件"><a href="#复制参考文件" class="headerlink" title="复制参考文件"></a>复制参考文件</h3><blockquote>
+<p>&#x2F;usr&#x2F;share&#x2F;doc&#x2F;dhcp-4.x.x&#x2F;dhcpd.conf.example  到  &#x2F;etc&#x2F;dhcp&#x2F;dhcpd.conf </p>
+</blockquote>
+<p>参考配置：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">subnet &lt;ip网段&gt; netmask &lt;255.255.255.0&gt; &#123;</span><br><span class="line">  range &lt;ip地址1&gt;  &lt;ip地址2&gt;;</span><br><span class="line">  option domain-name-servers &lt;DNS服务地址&gt;</span><br><span class="line">  option domain-name &lt;<span class="string">&quot;域名&quot;</span>&gt;</span><br><span class="line">  option routers &lt;网关ip地址&gt;</span><br><span class="line">  option broadcast-address &lt;以上网段的广播地址&gt;</span><br><span class="line">  default-lease-time &lt;默认时间&gt;(单位:秒)</span><br><span class="line">  max-lease-time &lt;最大时间&gt;(单位:秒)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="绑定硬件地址"><a href="#绑定硬件地址" class="headerlink" title="绑定硬件地址"></a>绑定硬件地址</h4><p>参考配置：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">host &lt;主机名&gt; &#123;</span><br><span class="line">  hardware ethernet &lt;mac地址&gt;;</span><br><span class="line">  fixed-address &lt;绑定的地址&gt;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="DHCP中继"><a href="#DHCP中继" class="headerlink" title="DHCP中继"></a>DHCP中继</h4><p>当客户端与服务器之间不直连时，在中继服务器上配置dhcp中继</p>
+<blockquote>
+<p>dhcrelay &lt;dhcp服务器ip地址&gt;</p>
+</blockquote>
+<h4 id="查看服务状态"><a href="#查看服务状态" class="headerlink" title="查看服务状态"></a>查看服务状态</h4><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#启动dhcpd服务</span></span><br><span class="line">systemctl start dhcpd</span><br><span class="line"><span class="comment">#查看服务状态</span></span><br><span class="line">systemctl status dhcpd</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ol>
+<li>当存在多个网卡时，应将主要网卡地址分配为第一个域<br>示例:<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#主要网卡对应的域</span></span><br><span class="line">subnet &lt;ip网段&gt; netmask &lt;255.255.255.0&gt; &#123;</span><br><span class="line">  range &lt;ip地址1&gt;  &lt;ip地址2&gt;;</span><br><span class="line">  option domain-name-servers &lt;DNS服务地址&gt;</span><br><span class="line">  option domain-name &lt;<span class="string">&quot;域名&quot;</span>&gt;</span><br><span class="line">  option routers &lt;网关ip地址&gt;</span><br><span class="line">  option broadcast-address &lt;以上网段的广播地址&gt;</span><br><span class="line">  default-lease-time &lt;默认时间&gt;(单位:秒)</span><br><span class="line">  max-lease-time &lt;最大时间&gt;(单位:秒)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">#次要网卡对应的域</span></span><br><span class="line">subnet &lt;ip网段&gt; netmask &lt;255.255.255.0&gt; &#123;</span><br><span class="line">  range &lt;ip地址1&gt;  &lt;ip地址2&gt;;</span><br><span class="line">  option domain-name-servers &lt;DNS服务地址&gt;</span><br><span class="line">  option domain-name &lt;<span class="string">&quot;域名&quot;</span>&gt;</span><br><span class="line">  option routers &lt;网关ip地址&gt;</span><br><span class="line">  option broadcast-address &lt;以上网段的广播地址&gt;</span><br><span class="line">  default-lease-time &lt;默认时间&gt;(单位:秒)</span><br><span class="line">  max-lease-time &lt;最大时间&gt;(单位:秒)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+如果不想为主要网卡分配域，就配置为空<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#主要网卡对应的域</span></span><br><span class="line">subnet &lt;ip网段&gt; netmask &lt;255.255.255.0&gt; &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">#次要网卡对应的域</span></span><br><span class="line">subnet &lt;ip网段&gt; netmask &lt;255.255.255.0&gt; &#123;</span><br><span class="line">  range &lt;ip地址1&gt;  &lt;ip地址2&gt;;</span><br><span class="line">  option domain-name-servers &lt;DNS服务地址&gt;</span><br><span class="line">  option domain-name &lt;<span class="string">&quot;域名&quot;</span>&gt;</span><br><span class="line">  option routers &lt;网关ip地址&gt;</span><br><span class="line">  option broadcast-address &lt;以上网段的广播地址&gt;</span><br><span class="line">  default-lease-time &lt;默认时间&gt;(单位:秒)</span><br><span class="line">  max-lease-time &lt;最大时间&gt;(单位:秒)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>DHCP</tag>
+        <tag>CentOS7</tag>
+      </tags>
+  </entry>
+</search>
