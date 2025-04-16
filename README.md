@@ -1,4 +1,4 @@
-# Hexo 博客静态文件
+# clevebitr-Blog-Public Hexo 博客静态文件
 
 此目录包含由 Hexo 生成的静态网站文件，可直接部署到任何静态网站托管服务。
 
